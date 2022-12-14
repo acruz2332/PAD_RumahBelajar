@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pad1.padrumahbelajar"
+    android:versionCode="1"
+    android:versionName="1.1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.PADRumahBelajar" >
+        <activity
+            android:name="com.pad1.padrumahbelajar.login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.quiz.LabelQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.quiz.DetailQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.quiz.AddQuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.quiz.AddLabelQuiz"
+            android:exported="false" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.quiz.QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity3"
+            android:exported="false"
+            android:label="@string/title_activity_tutorial3"
+            android:parentActivityName="com.pad1.padrumahbelajar.login.LoginActivity"
+            android:theme="@style/Theme.PADRumahBelajar.NoActionBar" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.login.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.fragment.MainActivity"
+            android:exported="false"
+            android:parentActivityName="com.pad1.padrumahbelajar.login.LoginActivity" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.login.SplashScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.pad1.padrumahbelajar.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>
