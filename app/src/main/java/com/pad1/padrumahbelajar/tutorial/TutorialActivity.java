@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.pad1.padrumahbelajar.R;
+import com.pad1.padrumahbelajar.fragment.MainActivity;
 
 public class TutorialActivity extends AppCompatActivity {
 
@@ -23,8 +24,9 @@ public class TutorialActivity extends AppCompatActivity {
         buttonGetstrt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(TutorialActivity.this, TutorialActivity2.class);
+                Intent intent = new Intent(TutorialActivity.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

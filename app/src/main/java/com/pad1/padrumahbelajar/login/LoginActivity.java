@@ -72,36 +72,8 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-//
-//        mApiService.kelasRequest()
-//                .enqueue(new Callback<KelasResponse>() {
-//                    @Override
-//                    public void onResponse(Call<KelasResponse> call, Response<KelasResponse> response) {
-//                        if (response.isSuccessful()) {
-////                            loading.dismiss();
-//                            KelasResponse kelasResponse = response.body();
-//                            ArrayList<KelasData> kelasData = kelasResponse.getData();
-//                            Log.e("getSuccess", "onFailure: ERROR > " + kelasResponse.getStatus().toString());
-////                            for (int i = 0; i<kelasData.size();i++){
-//                                String Kelas = kelasData.get(0).getNama_kelas().toString();
-//                               Log.d("getsucces",Kelas);
-//                                textViewLogin.setText(Kelas);
-////                            }
-//
-//
-////                            Toast.makeText(mContext, kelasResponse.getStatus(), Toast.LENGTH_SHORT).show();
-//                        } else {
-////                            loading.dismiss();
-//                        }
-//                    }
-//
-//                    @Override
-//                    public void onFailure(Call<KelasResponse> call, Throwable t) {
-//                        Log.e("debug", "onFailure: ERROR > " + t.toString());
-////                        Toast.makeText(mContext,"FAIL", Toast.LENGTH_SHORT).show();
-//                        loading.dismiss();
-//                    }
-//                });
+
+
 
 
         if (sharedPrefManager.getSPSudahLogin()){
@@ -128,7 +100,7 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                         if (response.isSuccessful()) {
-//                            loading.dismiss();
+
                             try {
                                 JSONObject jsonRESULTS = new JSONObject(response.body().string());
                                 if (jsonRESULTS.getString("status").equals("success")) {
@@ -143,22 +115,14 @@ public class LoginActivity extends AppCompatActivity {
                                     sharedPrefManager.saveSPString(SharedPrefManager.SP_TOKEN,token);
                                     sharedPrefManager.saveSPBoolean(SharedPrefManager.SP_SUDAH_LOGIN,true);
 
-                                    // Jika login berhasil maka data nama yang ada di response API
-                                    // akan diparsing ke activity selanjutnya.
                                     Intent intent = new Intent(getApplicationContext(), TutorialActivity.class);
                                     startActivity(intent);
+                                    finish();
                                     Toast.makeText(getApplicationContext(), "Login Berhasil", Toast.LENGTH_SHORT).show();
-//                                    Toast.makeText(mContext, "BERHASIL LOGIN", Toast.LENGTH_SHORT).show();
-//                                    String nama = jsonRESULTS.getJSONObject("user").getString("nama");
-////                                    sharedPrefManager.saveSPString(SharedPrefManager.SP_NAMA, nama);
-////                                    // Shared Pref ini berfungsi untuk menjadi trigger session login
-////                                    sharedPrefManager.saveSPBoolean(SharedPrefManager.SP_SUDAH_LOGIN, true);
-//                                    startActivity(new Intent(mContext, MainActivity.class)
-//                                            .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK));
-//                                    finish();
+
+
                                 } else {
-                                    // Jika login gagal
-//                                    String error_message = jsonRESULTS.getString("error_msg");
+
                                     Toast.makeText(getApplicationContext(), "GAGAL LOGIN", Toast.LENGTH_SHORT).show();
                                     String msg = jsonRESULTS.getString("message");
                                     AlertDialog alertDialog = new AlertDialog.Builder(LoginActivity.this).create();
@@ -179,22 +143,19 @@ public class LoginActivity extends AppCompatActivity {
                                 e.printStackTrace();
                             }
                         } else {
-//                            loading.dismiss();
+
                         }
                     }
 
                     @Override
                     public void onFailure(Call<ResponseBody> call, Throwable t) {
                         Log.e("debug", "onFailure: ERROR > " + t.toString());
-//                        loading.dismiss();
+
                     }
                 });
 
     }
-    public static void logout(){
-        sharedPrefManager.saveSPBoolean(SharedPrefManager.SP_SUDAH_LOGIN,false);
-
+    public void logout(){
+        sharedPrefManager.saveSPBoolean(SharedPrefManager.SP_SUDAH_LOGIN, false);
     }
-
-
 }

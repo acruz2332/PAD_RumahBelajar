@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -27,12 +28,14 @@ public class AddQuestionActivity extends AppCompatActivity {
     RadioGroup radioGroupJawaban;
     BaseApiService mApiService;
     Button btnAdd;
+    ImageView arrow;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question);
+        setContentView(R.layout.activity_add_question);
 
         Intent intent = getIntent();
         etSoal = findViewById(R.id.etSoal);
@@ -47,33 +50,40 @@ public class AddQuestionActivity extends AppCompatActivity {
         namaQuiz = bundle.getString("namaQuiz");
         token = bundle.getString("token");
         btnAdd = findViewById(R.id.btnAdd);
+        arrow = findViewById(R.id.img_back);
 
 
         radioGroupJawaban = findViewById(R.id.radioGroupJawab);
         mApiService = UtilsApi.getAPIService();
 
+        arrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
         radioGroupJawaban.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 switch (checkedId) {
                     case R.id.radioButtonA:
-                        jawaban = "A";
+                        jawaban = "a";
                         Toast.makeText(getApplicationContext(), jawaban, Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.radioButtonB:
-                        jawaban = "B";
+                        jawaban = "b";
                         Toast.makeText(getApplicationContext(), jawaban, Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.radioButtonC:
-                        jawaban = "C";
+                        jawaban = "c";
                         Toast.makeText(getApplicationContext(), jawaban, Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.radioButtonD:
-                        jawaban = "D";
+                        jawaban = "d";
                         Toast.makeText(getApplicationContext(), jawaban, Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.radioButtonE:
-                        jawaban = "E";
+                        jawaban = "e";
                         Toast.makeText(getApplicationContext(), jawaban, Toast.LENGTH_SHORT).show();
                         break;
 

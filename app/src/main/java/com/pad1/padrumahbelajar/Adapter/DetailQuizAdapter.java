@@ -18,9 +18,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.pad1.padrumahbelajar.R;
+import com.pad1.padrumahbelajar.SharedPrefManager;
 import com.pad1.padrumahbelajar.api.BaseApiService;
 import com.pad1.padrumahbelajar.api.UtilsApi;
 import com.pad1.padrumahbelajar.model.QuestionData;
@@ -42,12 +44,13 @@ public class DetailQuizAdapter extends RecyclerView.Adapter<DetailQuizAdapter.Li
     private final ArrayList<QuestionData> resultList;
 
     public Character[] jwb;
-    private String token;
+    private String token, tokenUser;
     private Activity activity;
-    public DetailQuizAdapter(Context context, ArrayList<QuestionData> resultList, String token) {
+    public DetailQuizAdapter(Context context, ArrayList<QuestionData> resultList, String token, String tokenUser) {
         this.context = context;
         this.resultList = resultList;
 
+        this.tokenUser = tokenUser;
         this.token = token;
         this.jwb = new Character[resultList.size()];
     }
@@ -64,6 +67,17 @@ public class DetailQuizAdapter extends RecyclerView.Adapter<DetailQuizAdapter.Li
 
     @Override
     public void onBindViewHolder(@NonNull ListViewHolder holder, int position) {
+
+//        Toast.makeText(context.getApplicationContext(), ""+resultList.get(position).getQuestion(), Toast.LENGTH_LONG).show();
+        if(resultList.get(position).getQuestion().equals("")){
+            holder.cv.setVisibility(View.GONE);
+        }
+
+        if (tokenUser.length() == 5){
+            holder.btnHapus.setVisibility(View.GONE);
+        } else if (tokenUser.length() == 6) {
+            holder.btnClear.setVisibility(View.GONE);
+        }
         try {
             holder.tvQuestion.setText(resultList.get(position).getQuestion());
             ArrayList<String> ans = resultList.get(position).getAnswer();
@@ -180,9 +194,11 @@ public class DetailQuizAdapter extends RecyclerView.Adapter<DetailQuizAdapter.Li
         RadioButton rbA,rbB,rbC,rbD,rbE;
         Button btnClear, btnHapus;
         BaseApiService mApiService2;
+        CardView cv;
 
         public ListViewHolder(@NonNull View itemView) {
             super(itemView);
+
             tv1 = itemView.findViewById(R.id.tv1);
             tv2 = itemView.findViewById(R.id.tv2);
             tvQuestion = itemView.findViewById(R.id.tvQuestion);
@@ -195,6 +211,7 @@ public class DetailQuizAdapter extends RecyclerView.Adapter<DetailQuizAdapter.Li
             btnClear = itemView.findViewById(R.id.btnClear);
             btnHapus = itemView.findViewById(R.id.btnHapus);
             mApiService2 = UtilsApi.getAPIService();
+            cv = itemView.findViewById(R.id.cv);
 
         }
     }

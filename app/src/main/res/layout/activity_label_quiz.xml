@@ -50,7 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="110dp"
-        android:background="@drawable/header_bg"
+        android:background="@drawable/home_bg"
         android:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +76,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="36dp"
             android:backgroundTint="#1782BC"
-            android:src="@drawable/ic_baseline_add_24"
+            android:src="@drawable/ic_add"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 

@@ -19,6 +19,8 @@ import com.pad1.padrumahbelajar.R;
 import com.pad1.padrumahbelajar.databinding.ActivityMainBinding;
 import com.pad1.padrumahbelajar.quiz.AddQuestionActivity;
 
+
+
 public class MainActivity extends AppCompatActivity {
     FloatingActionButton fab, fabAddClass;
     Animation fabOpen, fabClose, rotateForward, rotateBackward;
@@ -33,37 +35,6 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         replaceFragment(new HomeFragment());
-//
-        fab = findViewById(R.id.fab);
-//        fabAddClass = findViewById(R.id.fabAddClass);
-//
-//        fabOpen = AnimationUtils.loadAnimation(this,R.anim.tab_open);
-//        fabClose = AnimationUtils.loadAnimation(this,R.anim.tab_close);
-//
-//        rotateForward = AnimationUtils.loadAnimation(this,R.anim.rotate_forward);
-//        rotateBackward = AnimationUtils.loadAnimation(this,R.anim.rotate_backward);
-//
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                animateFab();
-//
-//            }
-//        });
-//        fabAddClass.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Toast.makeText(MainActivity.this,"CLICKED!!",Toast.LENGTH_SHORT).show();
-//            }
-//        });
-
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent =  new Intent(MainActivity.this, AddQuestionActivity.class);
-//                startActivity(intent);
-//            }
-//        });
 
         binding.bottomNavigationView.setOnItemSelectedListener(item ->{
             switch (item.getItemId()){
@@ -117,27 +88,5 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.replace(R.id.layout1, fragment);
         fragmentTransaction.commit();
     }
-
-
-//    private void animateFab(){
-//        if(isOpen){
-//            fab.startAnimation(rotateBackward);
-//            fabAddClass.startAnimation(fabClose);
-//            fabAddClass.setClickable(false);
-//            isOpen = false;
-//
-//        }
-//        else{
-//            fab.startAnimation(rotateForward);
-//            fabAddClass.startAnimation(fabOpen);
-//            fabAddClass.setClickable(true);
-//            isOpen = true;
-//        }
-//    }
-
-
-
-
-
 
 }

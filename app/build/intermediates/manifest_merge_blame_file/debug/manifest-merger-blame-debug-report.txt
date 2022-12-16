@@ -5,160 +5,185 @@
 5    android:versionName="1.1.1" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
-8-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="22"
+8-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml
+9-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:6:5-67
-11-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:6:22-64
+11-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:7:5-79
-12-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:7:22-76
+12-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:7:22-76
 13
 14    <application
-14-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:9:5-70:19
+14-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:9:5-75:19
 15        android:allowBackup="true"
-15-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:10:9-35
+15-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.8.0] C:\Users\akbar\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.8.0] C:\Users\ASUS\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:11:9-65
+17-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:11:9-65
 18        android:debuggable="true"
 19        android:fullBackupContent="@xml/backup_rules"
-19-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:12:9-54
+19-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:12:9-54
 20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:13:9-43
+20-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:13:9-43
 21        android:label="@string/app_name"
-21-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:14:9-41
+21-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:14:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:15:9-54
+22-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:15:9-54
 23        android:supportsRtl="true"
-23-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:16:9-35
+23-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:16:9-35
 24        android:testOnly="true"
 25        android:theme="@style/Theme.PADRumahBelajar" >
-25-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:17:9-53
+25-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:17:9-53
 26        <activity
-26-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:19:9-21:40
-27            android:name="com.pad1.padrumahbelajar.login.LoginActivity"
-27-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:20:13-48
+26-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:19:9-21:40
+27            android:name="com.pad1.padrumahbelajar.materi.DetailMateriActivity"
+27-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:20:13-56
 28            android:exported="false" />
-28-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:21:13-37
+28-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:21:13-37
 29        <activity
-29-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:22:9-24:40
-30            android:name="com.pad1.padrumahbelajar.quiz.LabelQuizActivity"
-30-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:23:13-51
+29-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:22:9-24:40
+30            android:name="com.pad1.padrumahbelajar.quiz.ResultActivity"
+30-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:23:13-48
 31            android:exported="false" />
-31-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:24:13-37
+31-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:24:13-37
 32        <activity
-32-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:25:9-27:40
-33            android:name="com.pad1.padrumahbelajar.quiz.DetailQuizActivity"
-33-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:26:13-52
+32-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:25:9-27:40
+33            android:name="com.pad1.padrumahbelajar.login.LoginActivity"
+33-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:26:13-48
 34            android:exported="false" />
-34-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:27:13-37
+34-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:27:13-37
 35        <activity
-35-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:28:9-30:40
-36            android:name="com.pad1.padrumahbelajar.quiz.AddQuestionActivity"
-36-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:29:13-53
+35-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:28:9-30:40
+36            android:name="com.pad1.padrumahbelajar.quiz.LabelQuizActivity"
+36-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:29:13-51
 37            android:exported="false" />
-37-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:30:13-37
+37-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:30:13-37
 38        <activity
-38-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:31:9-33:40
-39            android:name="com.pad1.padrumahbelajar.quiz.AddLabelQuiz"
-39-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:32:13-46
+38-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:31:9-33:40
+39            android:name="com.pad1.padrumahbelajar.quiz.DetailQuizActivity"
+39-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:32:13-52
 40            android:exported="false" />
-40-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:33:13-37
+40-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:33:13-37
 41        <activity
-41-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:34:9-36:40
-42            android:name="com.pad1.padrumahbelajar.quiz.QuizActivity"
-42-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:35:13-46
+41-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:34:9-36:40
+42            android:name="com.pad1.padrumahbelajar.quiz.AddQuestionActivity"
+42-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:35:13-53
 43            android:exported="false" />
-43-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:36:13-37
+43-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:36:13-37
 44        <activity
-44-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:37:9-42:72
-45            android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity3"
-45-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:38:13-55
-46            android:exported="false"
-46-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:39:13-37
-47            android:label="@string/title_activity_tutorial3"
-47-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:40:13-61
-48            android:parentActivityName="com.pad1.padrumahbelajar.login.LoginActivity"
-48-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:41:13-62
-49            android:theme="@style/Theme.PADRumahBelajar.NoActionBar" />
-49-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:42:13-69
+44-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:37:9-39:40
+45            android:name="com.pad1.padrumahbelajar.quiz.AddLabelQuiz"
+45-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:38:13-46
+46            android:exported="false" />
+46-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:39:13-37
+47        <activity
+47-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:40:9-42:40
+48            android:name="com.pad1.padrumahbelajar.quiz.QuizActivity"
+48-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:41:13-46
+49            android:exported="false" />
+49-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:42:13-37
 50        <activity
-50-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:43:9-45:40
-51            android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity2"
-51-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:44:13-55
-52            android:exported="false" />
-52-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:45:13-37
-53        <activity
-53-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:46:9-48:40
-54            android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity"
-54-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:47:13-54
-55            android:exported="false" />
-55-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:48:13-37
+50-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:43:9-48:72
+51            android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity3"
+51-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:44:13-55
+52            android:exported="false"
+52-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:45:13-37
+53            android:label="@string/title_activity_tutorial3"
+53-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:46:13-61
+54            android:parentActivityName="com.pad1.padrumahbelajar.login.LoginActivity"
+54-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:47:13-62
+55            android:theme="@style/Theme.PADRumahBelajar.NoActionBar" />
+55-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:48:13-69
 56        <activity
-56-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:50:9-52:40
-57            android:name="com.pad1.padrumahbelajar.login.SignUpActivity"
-57-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:51:13-49
+56-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:49:9-51:40
+57            android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity2"
+57-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:50:13-55
 58            android:exported="false" />
-58-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:52:13-37
+58-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:51:13-37
 59        <activity
-59-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:53:9-56:65
-60            android:name="com.pad1.padrumahbelajar.fragment.MainActivity"
-60-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:54:13-50
-61            android:exported="false"
-61-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:55:13-37
-62            android:parentActivityName="com.pad1.padrumahbelajar.login.LoginActivity" />
-62-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:56:13-62
-63        <activity
-63-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:57:9-65:20
-64            android:name="com.pad1.padrumahbelajar.login.SplashScreen"
-64-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:58:13-47
-65            android:exported="true" >
-65-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:59:13-36
-66            <intent-filter>
-66-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:60:13-64:29
-67                <action android:name="android.intent.action.MAIN" />
-67-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:61:17-69
-67-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:61:25-66
-68
-69                <category android:name="android.intent.category.LAUNCHER" />
-69-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:63:17-77
-69-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:63:27-74
-70            </intent-filter>
-71        </activity>
-72
-73        <meta-data
-73-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:67:9-69:57
-74            android:name="preloaded_fonts"
-74-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:68:13-43
-75            android:resource="@array/preloaded_fonts" />
-75-->C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\AndroidManifest.xml:69:13-54
-76
-77        <provider
-77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akbar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-78            android:name="androidx.startup.InitializationProvider"
-78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akbar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-79            android:authorities="com.pad1.padrumahbelajar.androidx-startup"
-79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akbar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-80            android:exported="false" >
-80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akbar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-81            <meta-data
-81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akbar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akbar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-83                android:value="androidx.startup" />
-83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akbar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-84            <meta-data
-84-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\akbar\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-85-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\akbar\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-86                android:value="androidx.startup" />
-86-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\akbar\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-87        </provider>
-88    </application>
-89
-90</manifest>
+59-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:52:9-54:40
+60            android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity"
+60-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:53:13-54
+61            android:exported="false" />
+61-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:54:13-37
+62        <activity
+62-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:55:9-57:40
+63            android:name="com.pad1.padrumahbelajar.login.SignUpActivity"
+63-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:56:13-49
+64            android:exported="false" />
+64-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:57:13-37
+65        <activity
+65-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:58:9-61:65
+66            android:name="com.pad1.padrumahbelajar.fragment.MainActivity"
+66-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:59:13-50
+67            android:exported="false"
+67-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:60:13-37
+68            android:parentActivityName="com.pad1.padrumahbelajar.login.LoginActivity" />
+68-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:61:13-62
+69        <activity
+69-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:62:9-70:20
+70            android:name="com.pad1.padrumahbelajar.login.SplashScreen"
+70-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:63:13-47
+71            android:exported="true" >
+71-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:64:13-36
+72            <intent-filter>
+72-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:65:13-69:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:66:17-69
+73-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:66:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:68:17-77
+75-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:68:27-74
+76            </intent-filter>
+77        </activity>
+78
+79        <meta-data
+79-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:72:9-74:57
+80            android:name="preloaded_fonts"
+80-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:73:13-43
+81            android:resource="@array/preloaded_fonts" />
+81-->D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:74:13-54
+82
+83        <provider
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+85            android:authorities="com.pad1.padrumahbelajar.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+90            <meta-data
+90-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+92                android:value="androidx.startup" />
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+93        </provider>
+94
+95        <uses-library
+95-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+96            android:name="androidx.window.extensions"
+96-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+97            android:required="false" />
+97-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+98        <uses-library
+98-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+99            android:name="androidx.window.sidecar"
+99-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+100            android:required="false" />
+100-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+101    </application>
+102
+103</manifest>

@@ -4,6 +4,7 @@ package com.pad1.padrumahbelajar.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,14 +21,18 @@ public final class ItemLabelQuizBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final Button btnHapusQuiz;
+
+  @NonNull
   public final TextView tvMapel;
 
   @NonNull
   public final TextView tvQuiz;
 
-  private ItemLabelQuizBinding(@NonNull CardView rootView, @NonNull TextView tvMapel,
-      @NonNull TextView tvQuiz) {
+  private ItemLabelQuizBinding(@NonNull CardView rootView, @NonNull Button btnHapusQuiz,
+      @NonNull TextView tvMapel, @NonNull TextView tvQuiz) {
     this.rootView = rootView;
+    this.btnHapusQuiz = btnHapusQuiz;
     this.tvMapel = tvMapel;
     this.tvQuiz = tvQuiz;
   }
@@ -59,6 +64,12 @@ public final class ItemLabelQuizBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnHapusQuiz;
+      Button btnHapusQuiz = ViewBindings.findChildViewById(rootView, id);
+      if (btnHapusQuiz == null) {
+        break missingId;
+      }
+
       id = R.id.tvMapel;
       TextView tvMapel = ViewBindings.findChildViewById(rootView, id);
       if (tvMapel == null) {
@@ -71,7 +82,7 @@ public final class ItemLabelQuizBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemLabelQuizBinding((CardView) rootView, tvMapel, tvQuiz);
+      return new ItemLabelQuizBinding((CardView) rootView, btnHapusQuiz, tvMapel, tvQuiz);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

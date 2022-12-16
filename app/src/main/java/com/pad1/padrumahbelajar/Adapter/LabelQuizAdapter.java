@@ -1,12 +1,15 @@
 package com.pad1.padrumahbelajar.Adapter;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,19 +17,32 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.pad1.padrumahbelajar.R;
+import com.pad1.padrumahbelajar.api.BaseApiService;
+import com.pad1.padrumahbelajar.api.UtilsApi;
 import com.pad1.padrumahbelajar.model.QuizData;
 import com.pad1.padrumahbelajar.quiz.DetailQuizActivity;
+import com.pad1.padrumahbelajar.quiz.LabelQuizActivity;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
 import java.util.ArrayList;
+
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class LabelQuizAdapter extends RecyclerView.Adapter<LabelQuizAdapter.ListViewHolder>{
 
     private Context context;
     private ArrayList<QuizData> resultList;
-
-    public LabelQuizAdapter(Context context, ArrayList<QuizData> resultList) {
+    private String token;
+    public LabelQuizAdapter(Context context, ArrayList<QuizData> resultList, String token) {
         this.context = context;
         this.resultList = resultList;
+        this.token = token;
     }
 
 
@@ -48,6 +64,50 @@ public class LabelQuizAdapter extends RecyclerView.Adapter<LabelQuizAdapter.List
 //        Glide.with(holder.imgPoster.getContext()).
 //                load("https://image.tmdb.org/t/p/w185" + resultList.get(position).getPosterPath()).
 //                into(holder.imgPoster);
+        int state = position;
+
+        if (this.token.length() == 5){
+            holder.btnHapusQuiz.setVisibility(View.GONE);
+        }
+        holder.btnHapusQuiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                builder.setPositiveButton("Iya", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        holder.mApiService2.quizListDelete(resultList.get(state).getToken()).enqueue(new Callback<ResponseBody>() {
+                            @Override
+                            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+                                if (response.isSuccessful()){
+                                    try{
+                                        JSONObject jsonRESULTS = new JSONObject(response.body().string());
+                                        if (jsonRESULTS.getString("status").equals("success")) {
+                                            Toast.makeText(context, "Berhasil Menghapus", Toast.LENGTH_SHORT).show();
+                                        }
+                                    } catch (JSONException e) {
+                                        e.printStackTrace();
+                                    } catch (IOException e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                            }
+
+                            @Override
+                            public void onFailure(Call<ResponseBody> call, Throwable t) {
+
+                            }
+                        });
+                    }
+                }).setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                }).setMessage("Apakah yaking hapus data?");
+                builder.show();
+            }
+        });
 
         holder.itemView.setOnClickListener(v -> {
 
@@ -60,7 +120,7 @@ public class LabelQuizAdapter extends RecyclerView.Adapter<LabelQuizAdapter.List
             intent.putExtras(bundle);
             v.getContext().startActivity(intent);
 
-            Toast.makeText(holder.itemView.getContext(), "" + resultList.get(holder.getAdapterPosition()).getMataPelajaran(), Toast.LENGTH_SHORT).show();
+//            Toast.makeText(holder.itemView.getContext(), "" + resultList.get(holder.getAdapterPosition()).getMataPelajaran(), Toast.LENGTH_SHORT).show();
         });
     }
 
@@ -73,12 +133,16 @@ public class LabelQuizAdapter extends RecyclerView.Adapter<LabelQuizAdapter.List
     public class ListViewHolder extends RecyclerView.ViewHolder{
 
         TextView tv1,tv2;
+        Button btnHapusQuiz;
+        BaseApiService mApiService2;
 
         public ListViewHolder(@NonNull View itemView) {
             super(itemView);
 
             tv1 = itemView.findViewById(R.id.tvMapel);
             tv2 = itemView.findViewById(R.id.tvQuiz);
+            btnHapusQuiz = itemView.findViewById(R.id.btnHapusQuiz);
+            mApiService2 = UtilsApi.getAPIService();
         }
     }
 }

@@ -22,9 +22,6 @@ public final class FragmentClassBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView btn;
-
-  @NonNull
   public final ConstraintLayout cons;
 
   @NonNull
@@ -34,17 +31,20 @@ public final class FragmentClassBinding implements ViewBinding {
   public final RecyclerView rvKelas;
 
   @NonNull
-  public final TextView textView;
+  public final TextView tv1;
 
-  private FragmentClassBinding(@NonNull ConstraintLayout rootView, @NonNull TextView btn,
-      @NonNull ConstraintLayout cons, @NonNull FloatingActionButton fab,
-      @NonNull RecyclerView rvKelas, @NonNull TextView textView) {
+  @NonNull
+  public final TextView tv2;
+
+  private FragmentClassBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout cons,
+      @NonNull FloatingActionButton fab, @NonNull RecyclerView rvKelas, @NonNull TextView tv1,
+      @NonNull TextView tv2) {
     this.rootView = rootView;
-    this.btn = btn;
     this.cons = cons;
     this.fab = fab;
     this.rvKelas = rvKelas;
-    this.textView = textView;
+    this.tv1 = tv1;
+    this.tv2 = tv2;
   }
 
   @Override
@@ -74,12 +74,6 @@ public final class FragmentClassBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn;
-      TextView btn = ViewBindings.findChildViewById(rootView, id);
-      if (btn == null) {
-        break missingId;
-      }
-
       id = R.id.cons;
       ConstraintLayout cons = ViewBindings.findChildViewById(rootView, id);
       if (cons == null) {
@@ -98,14 +92,19 @@ public final class FragmentClassBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.tv1;
+      TextView tv1 = ViewBindings.findChildViewById(rootView, id);
+      if (tv1 == null) {
         break missingId;
       }
 
-      return new FragmentClassBinding((ConstraintLayout) rootView, btn, cons, fab, rvKelas,
-          textView);
+      id = R.id.tv2;
+      TextView tv2 = ViewBindings.findChildViewById(rootView, id);
+      if (tv2 == null) {
+        break missingId;
+      }
+
+      return new FragmentClassBinding((ConstraintLayout) rootView, cons, fab, rvKelas, tv1, tv2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

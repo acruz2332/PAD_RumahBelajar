@@ -17,6 +17,9 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/dm_sans</item>
         <item>@font/dm_sans_medium</item>
+        <item>@font/libre_franklin</item>
+        <item>@font/libre_franklin_bold</item>
+        <item>@font/libre_franklin_extralight</item>
         <item>@font/poppins_bold</item>
         <item>@font/poppins_light</item>
         <item>@font/poppins_medium</item>
@@ -30,7 +33,7 @@
     <color name="blue_med">#03A9F4</color>
     <color name="edit_text_bg">#F2F3F7</color>
     <color name="gray">#A0A3B1</color>
-    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="ic_launcher_background">#3DDC84</color>
     <color name="indigo">#0D233F</color>
     <color name="kuning_murtad">#FFCE31</color>
     <color name="light_blue_med">#89C4DA</color>
@@ -78,8 +81,8 @@
     </style>
     <style name="Theme.PADRumahBelajar" parent="Theme.AppCompat.Light.NoActionBar">
         
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">#0077B6</item>
+        <item name="colorPrimaryVariant">#20C1DF</item>
         <item name="colorOnPrimary">@color/white</item>
         
         <item name="colorSecondary">@color/teal_200</item>

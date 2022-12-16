@@ -1,42 +1,48 @@
-com.pad1.padrumahbelajar.app-transition-1.3.0-0 C:\Users\akbar\.gradle\caches\transforms-3\0021738afa3a875344eec01d8a7cc9bf\transformed\transition-1.3.0\res
-com.pad1.padrumahbelajar.app-core-1.8.0-1 C:\Users\akbar\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\res
-com.pad1.padrumahbelajar.app-activity-1.5.0-2 C:\Users\akbar\.gradle\caches\transforms-3\06edff1378033c97d14bd58503495a0f\transformed\activity-1.5.0\res
-com.pad1.padrumahbelajar.app-navigation-common-2.3.5-3 C:\Users\akbar\.gradle\caches\transforms-3\06f628aaf4a40cd9a7dc010d9dc4dcd7\transformed\navigation-common-2.3.5\res
-com.pad1.padrumahbelajar.app-appcompat-1.5.0-4 C:\Users\akbar\.gradle\caches\transforms-3\0a1e1205a4ad55603e56c0d69f6f4244\transformed\appcompat-1.5.0\res
-com.pad1.padrumahbelajar.app-emoji2-views-helper-1.2.0-5 C:\Users\akbar\.gradle\caches\transforms-3\135fca5d9fc17a9a162c1f10e63dfb29\transformed\emoji2-views-helper-1.2.0\res
-com.pad1.padrumahbelajar.app-navigation-runtime-2.3.5-6 C:\Users\akbar\.gradle\caches\transforms-3\1e6a0da0be39dc78410e9fe0d17de1d3\transformed\navigation-runtime-2.3.5\res
-com.pad1.padrumahbelajar.app-savedstate-1.2.0-7 C:\Users\akbar\.gradle\caches\transforms-3\2051c9bdb0f5e6abe40d8c0e3c4f2a94\transformed\savedstate-1.2.0\res
-com.pad1.padrumahbelajar.app-lifecycle-viewmodel-2.5.1-8 C:\Users\akbar\.gradle\caches\transforms-3\25de86d634bfa2fae72a44174347ec38\transformed\lifecycle-viewmodel-2.5.1\res
-com.pad1.padrumahbelajar.app-core-ktx-1.8.0-9 C:\Users\akbar\.gradle\caches\transforms-3\2b2b5456559756e14c347eea3439ad58\transformed\core-ktx-1.8.0\res
-com.pad1.padrumahbelajar.app-drawerlayout-1.1.1-10 C:\Users\akbar\.gradle\caches\transforms-3\40385b749faeb1e28d272b77cbb8f0b1\transformed\drawerlayout-1.1.1\res
-com.pad1.padrumahbelajar.app-fragment-1.3.6-11 C:\Users\akbar\.gradle\caches\transforms-3\5059d3217f844de63f03a85fc33a1ce9\transformed\fragment-1.3.6\res
-com.pad1.padrumahbelajar.app-lifecycle-viewmodel-ktx-2.5.1-12 C:\Users\akbar\.gradle\caches\transforms-3\51b9bd2beaeaddde3df90fa57a8a3a3d\transformed\lifecycle-viewmodel-ktx-2.5.1\res
-com.pad1.padrumahbelajar.app-navigation-fragment-2.3.5-13 C:\Users\akbar\.gradle\caches\transforms-3\57bf9ec5d86c8b1db15fbe74f9010ec1\transformed\navigation-fragment-2.3.5\res
-com.pad1.padrumahbelajar.app-appcompat-resources-1.5.0-14 C:\Users\akbar\.gradle\caches\transforms-3\633b1da6171761b2f79f2ef4f1d088d6\transformed\appcompat-resources-1.5.0\res
-com.pad1.padrumahbelajar.app-lifecycle-livedata-2.5.1-15 C:\Users\akbar\.gradle\caches\transforms-3\6ad65893864227e983047caab092aeef\transformed\lifecycle-livedata-2.5.1\res
-com.pad1.padrumahbelajar.app-constraintlayout-2.1.4-16 C:\Users\akbar\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\res
-com.pad1.padrumahbelajar.app-lifecycle-livedata-core-2.5.1-17 C:\Users\akbar\.gradle\caches\transforms-3\8969035349e55fc4d6c445647f722696\transformed\lifecycle-livedata-core-2.5.1\res
-com.pad1.padrumahbelajar.app-lifecycle-viewmodel-savedstate-2.5.1-18 C:\Users\akbar\.gradle\caches\transforms-3\8aa4d154a755d3bc4c243974543ce682\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
-com.pad1.padrumahbelajar.app-lifecycle-runtime-2.5.0-19 C:\Users\akbar\.gradle\caches\transforms-3\911b2c65bef54739d1b82a0cfa054d83\transformed\lifecycle-runtime-2.5.0\res
-com.pad1.padrumahbelajar.app-viewpager2-1.0.0-20 C:\Users\akbar\.gradle\caches\transforms-3\96e7554634152527609a0a2a210aa86b\transformed\viewpager2-1.0.0\res
-com.pad1.padrumahbelajar.app-lifecycle-livedata-ktx-2.5.1-21 C:\Users\akbar\.gradle\caches\transforms-3\973076ab684cbd110d3e7e378f344952\transformed\lifecycle-livedata-ktx-2.5.1\res
-com.pad1.padrumahbelajar.app-emoji2-1.2.0-22 C:\Users\akbar\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\res
-com.pad1.padrumahbelajar.app-circleimageview-3.1.0-23 C:\Users\akbar\.gradle\caches\transforms-3\a17149fd6db7d5dec43c02b8b457e99f\transformed\circleimageview-3.1.0\res
-com.pad1.padrumahbelajar.app-recyclerview-1.2.1-24 C:\Users\akbar\.gradle\caches\transforms-3\a37bf7661255a6a0a3e20f2d11ec700f\transformed\recyclerview-1.2.1\res
-com.pad1.padrumahbelajar.app-lifecycle-process-2.4.1-25 C:\Users\akbar\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\res
-com.pad1.padrumahbelajar.app-glide-4.12.0-26 C:\Users\akbar\.gradle\caches\transforms-3\b040484501b7a8f688c23f3aabf50221\transformed\glide-4.12.0\res
-com.pad1.padrumahbelajar.app-material-1.6.1-27 C:\Users\akbar\.gradle\caches\transforms-3\b6f52d92dea29c0a7f49d4078033a89a\transformed\material-1.6.1\res
-com.pad1.padrumahbelajar.app-lifecycle-livedata-core-ktx-2.5.1-28 C:\Users\akbar\.gradle\caches\transforms-3\c6ae280b67e78041650385721a33c510\transformed\lifecycle-livedata-core-ktx-2.5.1\res
-com.pad1.padrumahbelajar.app-annotation-experimental-1.1.0-29 C:\Users\akbar\.gradle\caches\transforms-3\cdcb8e50109b2c2b9e961e9ab007ca34\transformed\annotation-experimental-1.1.0\res
-com.pad1.padrumahbelajar.app-cardview-1.0.0-30 C:\Users\akbar\.gradle\caches\transforms-3\d4c9e45086bb311ab5f003976f396c14\transformed\cardview-1.0.0\res
-com.pad1.padrumahbelajar.app-startup-runtime-1.1.1-31 C:\Users\akbar\.gradle\caches\transforms-3\dd26f7af4232aa82cd84cd79d410c8bc\transformed\startup-runtime-1.1.1\res
-com.pad1.padrumahbelajar.app-navigation-ui-2.3.5-32 C:\Users\akbar\.gradle\caches\transforms-3\dfaa223da9a2dec4716992408f2eb043\transformed\navigation-ui-2.3.5\res
-com.pad1.padrumahbelajar.app-coordinatorlayout-1.1.0-33 C:\Users\akbar\.gradle\caches\transforms-3\f911dcf170c4355b55309601278b778a\transformed\coordinatorlayout-1.1.0\res
-com.pad1.padrumahbelajar.app-pngs-34 C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\build\generated\res\pngs\debug
-com.pad1.padrumahbelajar.app-resValues-35 C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\build\generated\res\resValues\debug
-com.pad1.padrumahbelajar.app-rs-36 C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\build\generated\res\rs\debug
-com.pad1.padrumahbelajar.app-packageDebugResources-37 C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.pad1.padrumahbelajar.app-packageDebugResources-38 C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.pad1.padrumahbelajar.app-merged_res-39 C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\build\intermediates\merged_res\debug
-com.pad1.padrumahbelajar.app-debug-40 C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\debug\res
-com.pad1.padrumahbelajar.app-main-41 C:\Users\akbar\AndroidStudioProjects\PADRumahBelajar\app\src\main\res
+com.pad1.padrumahbelajar.app-core-1.8.0-0 C:\Users\ASUS\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\res
+com.pad1.padrumahbelajar.app-slidingpanelayout-1.2.0-1 C:\Users\ASUS\.gradle\caches\transforms-3\1250affac99cc108bdc075f3eae6a3a7\transformed\slidingpanelayout-1.2.0\res
+com.pad1.padrumahbelajar.app-emoji2-views-helper-1.2.0-2 C:\Users\ASUS\.gradle\caches\transforms-3\135fca5d9fc17a9a162c1f10e63dfb29\transformed\emoji2-views-helper-1.2.0\res
+com.pad1.padrumahbelajar.app-savedstate-1.2.0-3 C:\Users\ASUS\.gradle\caches\transforms-3\2051c9bdb0f5e6abe40d8c0e3c4f2a94\transformed\savedstate-1.2.0\res
+com.pad1.padrumahbelajar.app-lifecycle-viewmodel-2.5.1-4 C:\Users\ASUS\.gradle\caches\transforms-3\25de86d634bfa2fae72a44174347ec38\transformed\lifecycle-viewmodel-2.5.1\res
+com.pad1.padrumahbelajar.app-savedstate-ktx-1.2.0-5 C:\Users\ASUS\.gradle\caches\transforms-3\271f198d938e58e0ea9eeac6e3404076\transformed\savedstate-ktx-1.2.0\res
+com.pad1.padrumahbelajar.app-core-ktx-1.8.0-6 C:\Users\ASUS\.gradle\caches\transforms-3\2b2b5456559756e14c347eea3439ad58\transformed\core-ktx-1.8.0\res
+com.pad1.padrumahbelajar.app-drawerlayout-1.1.1-7 C:\Users\ASUS\.gradle\caches\transforms-3\40385b749faeb1e28d272b77cbb8f0b1\transformed\drawerlayout-1.1.1\res
+com.pad1.padrumahbelajar.app-window-1.0.0-8 C:\Users\ASUS\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\res
+com.pad1.padrumahbelajar.app-lifecycle-viewmodel-ktx-2.5.1-9 C:\Users\ASUS\.gradle\caches\transforms-3\51b9bd2beaeaddde3df90fa57a8a3a3d\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+com.pad1.padrumahbelajar.app-navigation-fragment-2.5.3-10 C:\Users\ASUS\.gradle\caches\transforms-3\578353dfc6e08d4a6a79aad17ce0f950\transformed\navigation-fragment-2.5.3\res
+com.pad1.padrumahbelajar.app-transition-1.4.1-11 C:\Users\ASUS\.gradle\caches\transforms-3\5d4110769af9163e6071065e275ea74f\transformed\transition-1.4.1\res
+com.pad1.padrumahbelajar.app-appcompat-1.5.1-12 C:\Users\ASUS\.gradle\caches\transforms-3\5d666d306352f7fdca8df50525096bc2\transformed\appcompat-1.5.1\res
+com.pad1.padrumahbelajar.app-navigation-runtime-2.5.3-13 C:\Users\ASUS\.gradle\caches\transforms-3\66894908161bd9f38bd8e48df5ef2a1e\transformed\navigation-runtime-2.5.3\res
+com.pad1.padrumahbelajar.app-activity-1.5.1-14 C:\Users\ASUS\.gradle\caches\transforms-3\68ebb38e13faf4391dab4addbfffac49\transformed\activity-1.5.1\res
+com.pad1.padrumahbelajar.app-lifecycle-livedata-2.5.1-15 C:\Users\ASUS\.gradle\caches\transforms-3\6ad65893864227e983047caab092aeef\transformed\lifecycle-livedata-2.5.1\res
+com.pad1.padrumahbelajar.app-lifecycle-runtime-2.5.1-16 C:\Users\ASUS\.gradle\caches\transforms-3\71e4318e68333ee5211cad9a5d7dfe56\transformed\lifecycle-runtime-2.5.1\res
+com.pad1.padrumahbelajar.app-navigation-common-2.5.3-17 C:\Users\ASUS\.gradle\caches\transforms-3\73773efde36b1e934b3f1550f77c5c5b\transformed\navigation-common-2.5.3\res
+com.pad1.padrumahbelajar.app-constraintlayout-2.1.4-18 C:\Users\ASUS\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\res
+com.pad1.padrumahbelajar.app-lifecycle-livedata-core-2.5.1-19 C:\Users\ASUS\.gradle\caches\transforms-3\8969035349e55fc4d6c445647f722696\transformed\lifecycle-livedata-core-2.5.1\res
+com.pad1.padrumahbelajar.app-fragment-ktx-1.5.4-20 C:\Users\ASUS\.gradle\caches\transforms-3\8a928418e2833eb8ebbac8b61420281e\transformed\fragment-ktx-1.5.4\res
+com.pad1.padrumahbelajar.app-lifecycle-viewmodel-savedstate-2.5.1-21 C:\Users\ASUS\.gradle\caches\transforms-3\8aa4d154a755d3bc4c243974543ce682\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.pad1.padrumahbelajar.app-viewpager2-1.0.0-22 C:\Users\ASUS\.gradle\caches\transforms-3\96e7554634152527609a0a2a210aa86b\transformed\viewpager2-1.0.0\res
+com.pad1.padrumahbelajar.app-lifecycle-livedata-ktx-2.5.1-23 C:\Users\ASUS\.gradle\caches\transforms-3\973076ab684cbd110d3e7e378f344952\transformed\lifecycle-livedata-ktx-2.5.1\res
+com.pad1.padrumahbelajar.app-lifecycle-runtime-ktx-2.5.1-24 C:\Users\ASUS\.gradle\caches\transforms-3\988910848b1b5147332cf257e9fec7c3\transformed\lifecycle-runtime-ktx-2.5.1\res
+com.pad1.padrumahbelajar.app-appcompat-resources-1.5.1-25 C:\Users\ASUS\.gradle\caches\transforms-3\9957f677aa4ca64938f214cf1fa220ad\transformed\appcompat-resources-1.5.1\res
+com.pad1.padrumahbelajar.app-emoji2-1.2.0-26 C:\Users\ASUS\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\res
+com.pad1.padrumahbelajar.app-circleimageview-3.1.0-27 C:\Users\ASUS\.gradle\caches\transforms-3\a17149fd6db7d5dec43c02b8b457e99f\transformed\circleimageview-3.1.0\res
+com.pad1.padrumahbelajar.app-recyclerview-1.2.1-28 C:\Users\ASUS\.gradle\caches\transforms-3\a37bf7661255a6a0a3e20f2d11ec700f\transformed\recyclerview-1.2.1\res
+com.pad1.padrumahbelajar.app-lifecycle-process-2.4.1-29 C:\Users\ASUS\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\res
+com.pad1.padrumahbelajar.app-glide-4.12.0-30 C:\Users\ASUS\.gradle\caches\transforms-3\b040484501b7a8f688c23f3aabf50221\transformed\glide-4.12.0\res
+com.pad1.padrumahbelajar.app-material-1.7.0-31 C:\Users\ASUS\.gradle\caches\transforms-3\b26501d9553d08a11b3cfe721422cf55\transformed\material-1.7.0\res
+com.pad1.padrumahbelajar.app-fragment-1.5.4-32 C:\Users\ASUS\.gradle\caches\transforms-3\b368cb9309e874a3fd0fc0e73f6bb1f5\transformed\fragment-1.5.4\res
+com.pad1.padrumahbelajar.app-lifecycle-livedata-core-ktx-2.5.1-33 C:\Users\ASUS\.gradle\caches\transforms-3\c6ae280b67e78041650385721a33c510\transformed\lifecycle-livedata-core-ktx-2.5.1\res
+com.pad1.padrumahbelajar.app-annotation-experimental-1.1.0-34 C:\Users\ASUS\.gradle\caches\transforms-3\cdcb8e50109b2c2b9e961e9ab007ca34\transformed\annotation-experimental-1.1.0\res
+com.pad1.padrumahbelajar.app-activity-ktx-1.5.1-35 C:\Users\ASUS\.gradle\caches\transforms-3\cfafa4f5d6b37279801c0e9285eec886\transformed\activity-ktx-1.5.1\res
+com.pad1.padrumahbelajar.app-cardview-1.0.0-36 C:\Users\ASUS\.gradle\caches\transforms-3\d4c9e45086bb311ab5f003976f396c14\transformed\cardview-1.0.0\res
+com.pad1.padrumahbelajar.app-startup-runtime-1.1.1-37 C:\Users\ASUS\.gradle\caches\transforms-3\dd26f7af4232aa82cd84cd79d410c8bc\transformed\startup-runtime-1.1.1\res
+com.pad1.padrumahbelajar.app-navigation-ui-2.3.5-38 C:\Users\ASUS\.gradle\caches\transforms-3\dfaa223da9a2dec4716992408f2eb043\transformed\navigation-ui-2.3.5\res
+com.pad1.padrumahbelajar.app-coordinatorlayout-1.1.0-39 C:\Users\ASUS\.gradle\caches\transforms-3\f911dcf170c4355b55309601278b778a\transformed\coordinatorlayout-1.1.0\res
+com.pad1.padrumahbelajar.app-pngs-40 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\generated\res\pngs\debug
+com.pad1.padrumahbelajar.app-resValues-41 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\generated\res\resValues\debug
+com.pad1.padrumahbelajar.app-rs-42 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\generated\res\rs\debug
+com.pad1.padrumahbelajar.app-packageDebugResources-43 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.pad1.padrumahbelajar.app-packageDebugResources-44 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.pad1.padrumahbelajar.app-merged_res-45 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\intermediates\merged_res\debug
+com.pad1.padrumahbelajar.app-debug-46 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\debug\res
+com.pad1.padrumahbelajar.app-main-47 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\res

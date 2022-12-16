@@ -1,7 +1,6 @@
 package com.pad1.padrumahbelajar.quiz;
 
 import static android.content.ContentValues.TAG;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -18,14 +17,20 @@ import android.widget.Toast;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.pad1.padrumahbelajar.Adapter.DetailQuizAdapter;
 import com.pad1.padrumahbelajar.R;
+import com.pad1.padrumahbelajar.SharedPrefManager;
 import com.pad1.padrumahbelajar.api.BaseApiService;
 import com.pad1.padrumahbelajar.api.UtilsApi;
 import com.pad1.padrumahbelajar.fragment.QuizFragment;
 import com.pad1.padrumahbelajar.model.QuestionData;
 import com.pad1.padrumahbelajar.model.QuestionResponse;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
 import java.util.ArrayList;
 
+import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -54,15 +59,22 @@ public class DetailQuizActivity extends AppCompatActivity {
         mataPelajaran = bundle.getString("mataPelajaran");
         namaQuiz = bundle.getString("namaQuiz");
         token = bundle.getString("token");
-
+        SharedPrefManager sp = new SharedPrefManager(this);
         btnSubmit = findViewById(R.id.btnSubmit);
-        arrow = findViewById(R.id.imageViewQuizOption);
+        arrow = findViewById(R.id.imgBack);
         tv1 = findViewById(R.id.tv1);
         tv2 = findViewById(R.id.tv2);
         tv1.setText(mataPelajaran);
         tv2.setText(namaQuiz);
-
         FloatingActionButton fab = findViewById(R.id.fab);
+        jawabanString = "";
+
+        if (sp.getSpToken().length() == 6){
+            btnSubmit.setVisibility(View.GONE);
+        }else if (sp.getSpToken().length() == 5){
+            fab.setVisibility(View.GONE);
+        }
+
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,15 +87,17 @@ public class DetailQuizActivity extends AppCompatActivity {
                 bundle.putString("token", token);
                 intent.putExtras(bundle);
                 startActivity(intent);
+                finish();
             }
         });
 
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DetailQuizActivity.this, QuizFragment.class);
+                finish();
             }
         });
+
         mApiService2.questionRequest(token).enqueue(new Callback<QuestionResponse>() {
             @Override
             public void onResponse(Call<QuestionResponse> call, Response<QuestionResponse> response) {
@@ -96,7 +110,7 @@ public class DetailQuizActivity extends AppCompatActivity {
                         Log.d("getsucces",nama);
 //                        tv1.setText(nama);
 
-                        adapter = new DetailQuizAdapter(DetailQuizActivity.this, questionData, token);
+                        adapter = new DetailQuizAdapter(DetailQuizActivity.this, questionData, token, sp.getSpToken());
                         recyclerView.setAdapter(adapter);
                         jwb = adapter.jwb;
                     } catch (Exception err) {
@@ -114,18 +128,49 @@ public class DetailQuizActivity extends AppCompatActivity {
             }
         });
 
-
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 for (int i = 0; i < jwb.length -1; i++) {
                     jawabanString += jwb[i] + ",";
                 }
                 jawabanString += jwb[jwb.length - 1];
-                Toast.makeText(DetailQuizActivity.this, jawabanString, Toast.LENGTH_SHORT).show();
-//                Intent intent = new Intent(DetailQuizActivity.this, FinalResultActivity.class);
-//                startActivity(intent);
+                mApiService2.storeNilai(sp.getSpToken(), token, jawabanString).enqueue(new Callback<ResponseBody>() {
+                    @Override
+                    public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+                        if(response.isSuccessful()){
+                            try{
+                                JSONObject jsonRESULT = new JSONObject(response.body().string());
+                                if(jsonRESULT.getString("status").equals("success")){
+                                    String benar = jsonRESULT.getString("benar");
+                                    String salah = jsonRESULT.getString("salah");
+                                    String kosong = jsonRESULT.getString("kosong");
+                                    String nilai = jsonRESULT.getString("nilai");
+                                    String percobaan = jsonRESULT.getString("percobaanKe");
+
+                                    Bundle bundle = new Bundle();
+                                    bundle.putString("benar", benar);
+                                    bundle.putString("salah", salah);
+                                    bundle.putString("kosong", kosong);
+                                    bundle.putString("nilai", nilai);
+                                    bundle.putString("percobaanKe", percobaan);
+                                    Intent intent = new Intent(DetailQuizActivity.this, ResultActivity.class);
+                                    intent.putExtras(bundle);
+                                    startActivity(intent);
+                                    finish();
+
+                                }
+                            } catch (JSONException | IOException e){
+                                e.printStackTrace();
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<ResponseBody> call, Throwable t) {
+
+                    }
+                });
                 jawabanString = "";
             }
         });

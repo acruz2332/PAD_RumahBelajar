@@ -2,22 +2,27 @@ package com.pad1.padrumahbelajar.fragment;
 
 import static android.content.ContentValues.TAG;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.pad1.padrumahbelajar.Adapter.LabelQuizAdapter;
 import com.pad1.padrumahbelajar.R;
+import com.pad1.padrumahbelajar.SharedPrefManager;
 import com.pad1.padrumahbelajar.api.BaseApiService;
 import com.pad1.padrumahbelajar.api.UtilsApi;
 import com.pad1.padrumahbelajar.databinding.ActivityMainBinding;
@@ -32,48 +37,28 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link QuizFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class QuizFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
     FloatingActionButton fab, fabAddClass;
     Animation fabOpen, fabClose, rotateForward, rotateBackward;
     private LabelQuizAdapter adapter;
     RecyclerView recyclerView;
     BaseApiService mApiService;
-
+    String token;
+    SharedPrefManager sp;
+    SharedPreferences sp2;
     boolean isOpen = false;
     ActivityMainBinding binding;
 
     public QuizFragment() {
-        // Required empty public constructor
+
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment QuizFragment.
-     */
-    // TODO: Rename and change types and number of parameters
     public static QuizFragment newInstance(String param1, String param2) {
         QuizFragment fragment = new QuizFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+
         fragment.setArguments(args);
         return fragment;
 
@@ -84,16 +69,14 @@ public class QuizFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         FloatingActionButton fab, fabAddClass;
         Animation fabOpen, fabClose, rotateForward, rotateBackward;
-
+        sp = new SharedPrefManager(this.getContext());
 
         boolean isOpen = false;
         ActivityMainBinding binding;
 
+        String token = sp.getSpToken();
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
+
     }
 
     @Override
@@ -106,6 +89,10 @@ public class QuizFragment extends Fragment {
         fab = view.findViewById(R.id.fab);
         recyclerView = view.findViewById(R.id.recyclerViewQuiz);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
+        if (sp.getSpToken().length() == 5){
+            fab.setVisibility(View.GONE);
+        }
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -123,7 +110,7 @@ public class QuizFragment extends Fragment {
                     ArrayList<QuizData> quizData = quizResponse.getData();
                     Log.e("getSuccess", "onFailure: ERROR > " + quizResponse.getStatus().toString());
                     try {
-                        adapter = new LabelQuizAdapter(getContext(), quizData);
+                        adapter = new LabelQuizAdapter(getContext(), quizData, sp.getSpToken());
                         recyclerView.setAdapter(adapter);
                     } catch (Exception err) {
                         Log.e(TAG, "Error INIII");

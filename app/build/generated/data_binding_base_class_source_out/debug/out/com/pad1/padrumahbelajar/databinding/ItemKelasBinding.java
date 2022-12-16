@@ -8,7 +8,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.pad1.padrumahbelajar.R;
@@ -18,28 +17,24 @@ import java.lang.String;
 
 public final class ItemKelasBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final CardView rootView;
 
   @NonNull
-  public final CardView cv;
+  public final TextView tvGuru;
 
   @NonNull
-  public final TextView namaGuru;
+  public final TextView tvKelas;
 
-  @NonNull
-  public final TextView namaKelas;
-
-  private ItemKelasBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cv,
-      @NonNull TextView namaGuru, @NonNull TextView namaKelas) {
+  private ItemKelasBinding(@NonNull CardView rootView, @NonNull TextView tvGuru,
+      @NonNull TextView tvKelas) {
     this.rootView = rootView;
-    this.cv = cv;
-    this.namaGuru = namaGuru;
-    this.namaKelas = namaKelas;
+    this.tvGuru = tvGuru;
+    this.tvKelas = tvKelas;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public CardView getRoot() {
     return rootView;
   }
 
@@ -64,25 +59,19 @@ public final class ItemKelasBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.cv;
-      CardView cv = ViewBindings.findChildViewById(rootView, id);
-      if (cv == null) {
+      id = R.id.tvGuru;
+      TextView tvGuru = ViewBindings.findChildViewById(rootView, id);
+      if (tvGuru == null) {
         break missingId;
       }
 
-      id = R.id.nama_guru;
-      TextView namaGuru = ViewBindings.findChildViewById(rootView, id);
-      if (namaGuru == null) {
+      id = R.id.tvKelas;
+      TextView tvKelas = ViewBindings.findChildViewById(rootView, id);
+      if (tvKelas == null) {
         break missingId;
       }
 
-      id = R.id.nama_kelas;
-      TextView namaKelas = ViewBindings.findChildViewById(rootView, id);
-      if (namaKelas == null) {
-        break missingId;
-      }
-
-      return new ItemKelasBinding((ConstraintLayout) rootView, cv, namaGuru, namaKelas);
+      return new ItemKelasBinding((CardView) rootView, tvGuru, tvKelas);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,6 +4,7 @@ package com.pad1.padrumahbelajar.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,6 +22,9 @@ public final class FragmentProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button btnLogout;
+
+  @NonNull
   public final CircleImageView imageView3;
 
   @NonNull
@@ -35,15 +39,25 @@ public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
   public final TextView textView8;
 
-  private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
+  @NonNull
+  public final TextView tv1;
+
+  @NonNull
+  public final TextView tv2;
+
+  private FragmentProfileBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogout,
       @NonNull CircleImageView imageView3, @NonNull TextView textView11,
-      @NonNull TextView textView12, @NonNull TextView textView5, @NonNull TextView textView8) {
+      @NonNull TextView textView12, @NonNull TextView textView5, @NonNull TextView textView8,
+      @NonNull TextView tv1, @NonNull TextView tv2) {
     this.rootView = rootView;
+    this.btnLogout = btnLogout;
     this.imageView3 = imageView3;
     this.textView11 = textView11;
     this.textView12 = textView12;
     this.textView5 = textView5;
     this.textView8 = textView8;
+    this.tv1 = tv1;
+    this.tv2 = tv2;
   }
 
   @Override
@@ -73,6 +87,12 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_logout;
+      Button btnLogout = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogout == null) {
+        break missingId;
+      }
+
       id = R.id.imageView3;
       CircleImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
       if (imageView3 == null) {
@@ -103,8 +123,20 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((ConstraintLayout) rootView, imageView3, textView11,
-          textView12, textView5, textView8);
+      id = R.id.tv1;
+      TextView tv1 = ViewBindings.findChildViewById(rootView, id);
+      if (tv1 == null) {
+        break missingId;
+      }
+
+      id = R.id.tv2;
+      TextView tv2 = ViewBindings.findChildViewById(rootView, id);
+      if (tv2 == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((ConstraintLayout) rootView, btnLogout, imageView3,
+          textView11, textView12, textView5, textView8, tv1, tv2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

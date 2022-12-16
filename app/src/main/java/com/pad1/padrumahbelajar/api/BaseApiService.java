@@ -28,8 +28,12 @@ public interface BaseApiService {
 
     @GET("guru/kelas/getall")
     Call<KelasResponse> kelasRequest();
+
     @GET("guru/quiz/getquiz")
     Call<QuizResponse> quizRequest();
+
+    @GET("guru/quiz/destroy/{token}")
+    Call<ResponseBody> quizListDelete(@Path("token") String token);
 
     @GET("guru/question/getquestion/{token}")
     Call<QuestionResponse> questionRequest(@Path("token") String token);
@@ -46,5 +50,10 @@ public interface BaseApiService {
     @FormUrlEncoded
     @POST("guru/question/deletequestion")
     Call<ResponseBody> quizDelete(@Field("token") String token, @Field("num") int num);
+
+    @FormUrlEncoded
+    @POST("guru/nilai/storenilai")
+    Call<ResponseBody> storeNilai(@Field("tokenMurid") String tokenMurid, @Field("tokenQuiz") String tokenQuiz
+            , @Field("studentAnswer") String studentAnswer);
 
 }

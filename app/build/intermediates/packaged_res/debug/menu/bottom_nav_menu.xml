@@ -3,22 +3,22 @@
 
     <item
         android:id="@+id/materi"
-        android:icon="@drawable/home"
+        android:icon="@drawable/ic_home2"
         android:title="Materi" />
 
     <item
         android:id="@+id/kelas"
-        android:icon="@drawable/kelas2"
+        android:icon="@drawable/ic_class"
         android:title="Class" />
 
     <item
         android:id="@+id/quiz"
-        android:icon="@drawable/quiz2"
+        android:icon="@drawable/ic_quiz"
         android:title="quiz" />
 
     <item
         android:id="@+id/profile"
-        android:icon="@drawable/profile2"
+        android:icon="@drawable/ic_person"
         android:title="profile" />
 
 </menu>

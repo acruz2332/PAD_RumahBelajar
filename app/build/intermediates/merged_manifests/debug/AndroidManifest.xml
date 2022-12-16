@@ -5,7 +5,7 @@
     android:versionName="1.1.1" >
 
     <uses-sdk
-        android:minSdkVersion="21"
+        android:minSdkVersion="22"
         android:targetSdkVersion="32" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -23,6 +23,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.PADRumahBelajar" >
+        <activity
+            android:name="com.pad1.padrumahbelajar.materi.DetailMateriActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.quiz.ResultActivity"
+            android:exported="false" />
         <activity
             android:name="com.pad1.padrumahbelajar.login.LoginActivity"
             android:exported="false" />
@@ -85,6 +91,13 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
     </application>
 
 </manifest>

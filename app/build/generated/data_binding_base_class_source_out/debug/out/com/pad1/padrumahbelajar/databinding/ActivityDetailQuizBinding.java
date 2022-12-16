@@ -30,7 +30,7 @@ public final class ActivityDetailQuizBinding implements ViewBinding {
   public final FloatingActionButton fab;
 
   @NonNull
-  public final ImageView imageViewQuizOption;
+  public final ImageView imgBack;
 
   @NonNull
   public final RecyclerView recyclerView2;
@@ -42,12 +42,12 @@ public final class ActivityDetailQuizBinding implements ViewBinding {
   public final TextView tv2;
 
   private ActivityDetailQuizBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnSubmit,
-      @NonNull FloatingActionButton fab, @NonNull ImageView imageViewQuizOption,
+      @NonNull FloatingActionButton fab, @NonNull ImageView imgBack,
       @NonNull RecyclerView recyclerView2, @NonNull TextView tv1, @NonNull TextView tv2) {
     this.rootView = rootView;
     this.btnSubmit = btnSubmit;
     this.fab = fab;
-    this.imageViewQuizOption = imageViewQuizOption;
+    this.imgBack = imgBack;
     this.recyclerView2 = recyclerView2;
     this.tv1 = tv1;
     this.tv2 = tv2;
@@ -92,9 +92,9 @@ public final class ActivityDetailQuizBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageViewQuizOption;
-      ImageView imageViewQuizOption = ViewBindings.findChildViewById(rootView, id);
-      if (imageViewQuizOption == null) {
+      id = R.id.imgBack;
+      ImageView imgBack = ViewBindings.findChildViewById(rootView, id);
+      if (imgBack == null) {
         break missingId;
       }
 
@@ -116,8 +116,8 @@ public final class ActivityDetailQuizBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDetailQuizBinding((ConstraintLayout) rootView, btnSubmit, fab,
-          imageViewQuizOption, recyclerView2, tv1, tv2);
+      return new ActivityDetailQuizBinding((ConstraintLayout) rootView, btnSubmit, fab, imgBack,
+          recyclerView2, tv1, tv2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

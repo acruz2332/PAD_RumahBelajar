@@ -6,8 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -44,15 +42,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final EditText editTextUsername;
 
   @NonNull
-  public final ImageView imageView;
-
-  @NonNull
-  public final LinearLayout linearLayout;
-
-  @NonNull
-  public final LinearLayout linearLayout2;
-
-  @NonNull
   public final RadioButton radioButton;
 
   @NonNull
@@ -60,6 +49,12 @@ public final class ActivitySignUpBinding implements ViewBinding {
 
   @NonNull
   public final RadioGroup radioGroupRole;
+
+  @NonNull
+  public final TextView textView13;
+
+  @NonNull
+  public final TextView textView14;
 
   @NonNull
   public final TextView textView2;
@@ -73,11 +68,10 @@ public final class ActivitySignUpBinding implements ViewBinding {
   private ActivitySignUpBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonRegister,
       @NonNull EditText editTextConfirm, @NonNull EditText editTextEmail,
       @NonNull EditText editTextName, @NonNull EditText editTextPassword,
-      @NonNull EditText editTextUsername, @NonNull ImageView imageView,
-      @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout2,
-      @NonNull RadioButton radioButton, @NonNull RadioButton radioButton2,
-      @NonNull RadioGroup radioGroupRole, @NonNull TextView textView2, @NonNull TextView textView7,
-      @NonNull TextView textViewlogin) {
+      @NonNull EditText editTextUsername, @NonNull RadioButton radioButton,
+      @NonNull RadioButton radioButton2, @NonNull RadioGroup radioGroupRole,
+      @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView2,
+      @NonNull TextView textView7, @NonNull TextView textViewlogin) {
     this.rootView = rootView;
     this.buttonRegister = buttonRegister;
     this.editTextConfirm = editTextConfirm;
@@ -85,12 +79,11 @@ public final class ActivitySignUpBinding implements ViewBinding {
     this.editTextName = editTextName;
     this.editTextPassword = editTextPassword;
     this.editTextUsername = editTextUsername;
-    this.imageView = imageView;
-    this.linearLayout = linearLayout;
-    this.linearLayout2 = linearLayout2;
     this.radioButton = radioButton;
     this.radioButton2 = radioButton2;
     this.radioGroupRole = radioGroupRole;
+    this.textView13 = textView13;
+    this.textView14 = textView14;
     this.textView2 = textView2;
     this.textView7 = textView7;
     this.textViewlogin = textViewlogin;
@@ -159,24 +152,6 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView;
-      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
-      if (imageView == null) {
-        break missingId;
-      }
-
-      id = R.id.linearLayout;
-      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
-      if (linearLayout == null) {
-        break missingId;
-      }
-
-      id = R.id.linearLayout2;
-      LinearLayout linearLayout2 = ViewBindings.findChildViewById(rootView, id);
-      if (linearLayout2 == null) {
-        break missingId;
-      }
-
       id = R.id.radioButton;
       RadioButton radioButton = ViewBindings.findChildViewById(rootView, id);
       if (radioButton == null) {
@@ -192,6 +167,18 @@ public final class ActivitySignUpBinding implements ViewBinding {
       id = R.id.radioGroupRole;
       RadioGroup radioGroupRole = ViewBindings.findChildViewById(rootView, id);
       if (radioGroupRole == null) {
+        break missingId;
+      }
+
+      id = R.id.textView13;
+      TextView textView13 = ViewBindings.findChildViewById(rootView, id);
+      if (textView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView14;
+      TextView textView14 = ViewBindings.findChildViewById(rootView, id);
+      if (textView14 == null) {
         break missingId;
       }
 
@@ -214,8 +201,8 @@ public final class ActivitySignUpBinding implements ViewBinding {
       }
 
       return new ActivitySignUpBinding((ConstraintLayout) rootView, buttonRegister, editTextConfirm,
-          editTextEmail, editTextName, editTextPassword, editTextUsername, imageView, linearLayout,
-          linearLayout2, radioButton, radioButton2, radioGroupRole, textView2, textView7,
+          editTextEmail, editTextName, editTextPassword, editTextUsername, radioButton,
+          radioButton2, radioGroupRole, textView13, textView14, textView2, textView7,
           textViewlogin);
     }
     String missingId = rootView.getResources().getResourceName(id);

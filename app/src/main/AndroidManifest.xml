@@ -17,6 +17,12 @@
         android:theme="@style/Theme.PADRumahBelajar"
         tools:targetApi="31">
         <activity
+            android:name=".materi.DetailMateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz.ResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".login.LoginActivity"
             android:exported="false" />
         <activity
@@ -46,7 +52,6 @@
         <activity
             android:name=".tutorial.TutorialActivity"
             android:exported="false" />
-
         <activity
             android:name=".login.SignUpActivity"
             android:exported="false" />

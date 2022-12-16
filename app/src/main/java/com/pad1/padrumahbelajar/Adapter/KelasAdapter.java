@@ -49,9 +49,6 @@ public class KelasAdapter extends RecyclerView.Adapter<KelasAdapter.ViewHolder> 
 
             Toast.makeText(holder.itemView.getContext(), "" + kelasData.get(holder.getAdapterPosition()).getNamaKelas(), Toast.LENGTH_SHORT).show();
         });
-
-
-
     }
 
     @Override
@@ -64,8 +61,8 @@ public class KelasAdapter extends RecyclerView.Adapter<KelasAdapter.ViewHolder> 
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            namaKelas = itemView.findViewById(R.id.nama_kelas);
-            namaGuru = itemView.findViewById(R.id.nama_guru);
+            namaKelas = itemView.findViewById(R.id.tvKelas);
+            namaGuru = itemView.findViewById(R.id.tvGuru);
         }
     }
 }

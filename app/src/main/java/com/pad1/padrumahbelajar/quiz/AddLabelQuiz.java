@@ -46,6 +46,7 @@ public class AddLabelQuiz extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(AddLabelQuiz.this, QuizFragment.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -58,6 +59,7 @@ public class AddLabelQuiz extends AppCompatActivity {
                     public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                         if(response.isSuccessful()){
                             Toast.makeText(AddLabelQuiz.this, "sukses heheh", Toast.LENGTH_SHORT).show();
+                            finish();
                         }
                         else {
                             Toast.makeText(AddLabelQuiz.this, "gagal nich", Toast.LENGTH_SHORT).show();
