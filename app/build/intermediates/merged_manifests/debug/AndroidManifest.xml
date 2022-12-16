@@ -25,6 +25,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.PADRumahBelajar" >
         <activity
+            android:name="com.pad1.padrumahbelajar.quiz.HistoryActivity"
+            android:exported="false" />
+        <activity
             android:name="com.pad1.padrumahbelajar.materi.AddMateriActivity"
             android:exported="false" />
         <activity

@@ -3,6 +3,7 @@ package com.pad1.padrumahbelajar.api;
 import com.pad1.padrumahbelajar.model.KelasResponse;
 import com.pad1.padrumahbelajar.model.QuestionResponse;
 import com.pad1.padrumahbelajar.model.QuizResponse;
+import com.pad1.padrumahbelajar.quiz.HistoryResponse;
 
 import java.util.ArrayList;
 
@@ -25,6 +26,9 @@ public interface BaseApiService {
     Call<ResponseBody> registerRequest(@Field("nama") String nama,
                                     @Field("email") String email,@Field("username") String username,
                                        @Field("password1") String password1,@Field("password2") String password2,@Field("role") String role);
+
+    @GET("guru/nilai/getnilai/{token}")
+    Call<HistoryResponse> historyRequest(@Path("token") String token);
 
     @GET("guru/kelas/getall")
     Call<KelasResponse> kelasRequest();

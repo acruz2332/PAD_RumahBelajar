@@ -24,15 +24,19 @@ public final class ItemLabelQuizBinding implements ViewBinding {
   public final Button btnHapusQuiz;
 
   @NonNull
+  public final Button btnHistory;
+
+  @NonNull
   public final TextView tvMapel;
 
   @NonNull
   public final TextView tvQuiz;
 
   private ItemLabelQuizBinding(@NonNull CardView rootView, @NonNull Button btnHapusQuiz,
-      @NonNull TextView tvMapel, @NonNull TextView tvQuiz) {
+      @NonNull Button btnHistory, @NonNull TextView tvMapel, @NonNull TextView tvQuiz) {
     this.rootView = rootView;
     this.btnHapusQuiz = btnHapusQuiz;
+    this.btnHistory = btnHistory;
     this.tvMapel = tvMapel;
     this.tvQuiz = tvQuiz;
   }
@@ -70,6 +74,12 @@ public final class ItemLabelQuizBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnHistory;
+      Button btnHistory = ViewBindings.findChildViewById(rootView, id);
+      if (btnHistory == null) {
+        break missingId;
+      }
+
       id = R.id.tvMapel;
       TextView tvMapel = ViewBindings.findChildViewById(rootView, id);
       if (tvMapel == null) {
@@ -82,7 +92,8 @@ public final class ItemLabelQuizBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemLabelQuizBinding((CardView) rootView, btnHapusQuiz, tvMapel, tvQuiz);
+      return new ItemLabelQuizBinding((CardView) rootView, btnHapusQuiz, btnHistory, tvMapel,
+          tvQuiz);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

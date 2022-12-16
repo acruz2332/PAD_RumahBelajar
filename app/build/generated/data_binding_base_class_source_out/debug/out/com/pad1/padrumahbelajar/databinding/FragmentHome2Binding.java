@@ -35,6 +35,12 @@ public final class FragmentHome2Binding implements ViewBinding {
   public final LinearLayout linear3;
 
   @NonNull
+  public final LinearLayout llBab1;
+
+  @NonNull
+  public final LinearLayout llBab2;
+
+  @NonNull
   public final Button opsiB1;
 
   @NonNull
@@ -63,15 +69,18 @@ public final class FragmentHome2Binding implements ViewBinding {
 
   private FragmentHome2Binding(@NonNull ConstraintLayout rootView,
       @NonNull FloatingActionButton fab, @NonNull LinearLayout linear1,
-      @NonNull LinearLayout linear2, @NonNull LinearLayout linear3, @NonNull Button opsiB1,
-      @NonNull Button opsiB2, @NonNull Button opsiB3, @NonNull Button opsiB4,
-      @NonNull Button opsiB5, @NonNull Button opsiB6, @NonNull Button opsiB7,
-      @NonNull TextView textView, @NonNull TextView textView4) {
+      @NonNull LinearLayout linear2, @NonNull LinearLayout linear3, @NonNull LinearLayout llBab1,
+      @NonNull LinearLayout llBab2, @NonNull Button opsiB1, @NonNull Button opsiB2,
+      @NonNull Button opsiB3, @NonNull Button opsiB4, @NonNull Button opsiB5,
+      @NonNull Button opsiB6, @NonNull Button opsiB7, @NonNull TextView textView,
+      @NonNull TextView textView4) {
     this.rootView = rootView;
     this.fab = fab;
     this.linear1 = linear1;
     this.linear2 = linear2;
     this.linear3 = linear3;
+    this.llBab1 = llBab1;
+    this.llBab2 = llBab2;
     this.opsiB1 = opsiB1;
     this.opsiB2 = opsiB2;
     this.opsiB3 = opsiB3;
@@ -134,6 +143,18 @@ public final class FragmentHome2Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.llBab1;
+      LinearLayout llBab1 = ViewBindings.findChildViewById(rootView, id);
+      if (llBab1 == null) {
+        break missingId;
+      }
+
+      id = R.id.llBab2;
+      LinearLayout llBab2 = ViewBindings.findChildViewById(rootView, id);
+      if (llBab2 == null) {
+        break missingId;
+      }
+
       id = R.id.opsi_b1;
       Button opsiB1 = ViewBindings.findChildViewById(rootView, id);
       if (opsiB1 == null) {
@@ -189,7 +210,8 @@ public final class FragmentHome2Binding implements ViewBinding {
       }
 
       return new FragmentHome2Binding((ConstraintLayout) rootView, fab, linear1, linear2, linear3,
-          opsiB1, opsiB2, opsiB3, opsiB4, opsiB5, opsiB6, opsiB7, textView, textView4);
+          llBab1, llBab2, opsiB1, opsiB2, opsiB3, opsiB4, opsiB5, opsiB6, opsiB7, textView,
+          textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

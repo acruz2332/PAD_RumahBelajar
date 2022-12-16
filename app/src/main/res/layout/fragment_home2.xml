@@ -57,6 +57,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
+                android:id="@+id/llBab1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="10dp"
@@ -65,7 +66,6 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:focusableInTouchMode="true"
-                android:onClick="readMateriB1"
                 android:orientation="vertical">
 
                 <ImageView
@@ -91,11 +91,11 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/llBab2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:onClick="readMateriB2"
                 android:background="@drawable/bg_layout_white"
                 android:orientation="vertical">
 

@@ -5,6 +5,7 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
+        jcenter()
     }
 }
 dependencyResolutionManagement {
@@ -12,7 +13,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-
+        jcenter()
     }
 }
 rootProject.name = "PAD Rumah Belajar"

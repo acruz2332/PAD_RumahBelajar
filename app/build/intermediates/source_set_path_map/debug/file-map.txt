@@ -1,48 +1,50 @@
-com.pad1.padrumahbelajar.app-core-1.8.0-0 C:\Users\ASUS\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\res
-com.pad1.padrumahbelajar.app-slidingpanelayout-1.2.0-1 C:\Users\ASUS\.gradle\caches\transforms-3\1250affac99cc108bdc075f3eae6a3a7\transformed\slidingpanelayout-1.2.0\res
-com.pad1.padrumahbelajar.app-emoji2-views-helper-1.2.0-2 C:\Users\ASUS\.gradle\caches\transforms-3\135fca5d9fc17a9a162c1f10e63dfb29\transformed\emoji2-views-helper-1.2.0\res
-com.pad1.padrumahbelajar.app-savedstate-1.2.0-3 C:\Users\ASUS\.gradle\caches\transforms-3\2051c9bdb0f5e6abe40d8c0e3c4f2a94\transformed\savedstate-1.2.0\res
-com.pad1.padrumahbelajar.app-lifecycle-viewmodel-2.5.1-4 C:\Users\ASUS\.gradle\caches\transforms-3\25de86d634bfa2fae72a44174347ec38\transformed\lifecycle-viewmodel-2.5.1\res
-com.pad1.padrumahbelajar.app-savedstate-ktx-1.2.0-5 C:\Users\ASUS\.gradle\caches\transforms-3\271f198d938e58e0ea9eeac6e3404076\transformed\savedstate-ktx-1.2.0\res
-com.pad1.padrumahbelajar.app-core-ktx-1.8.0-6 C:\Users\ASUS\.gradle\caches\transforms-3\2b2b5456559756e14c347eea3439ad58\transformed\core-ktx-1.8.0\res
-com.pad1.padrumahbelajar.app-drawerlayout-1.1.1-7 C:\Users\ASUS\.gradle\caches\transforms-3\40385b749faeb1e28d272b77cbb8f0b1\transformed\drawerlayout-1.1.1\res
-com.pad1.padrumahbelajar.app-window-1.0.0-8 C:\Users\ASUS\.gradle\caches\transforms-3\44eb76c63a430958185cfd53aa9f79f1\transformed\window-1.0.0\res
-com.pad1.padrumahbelajar.app-lifecycle-viewmodel-ktx-2.5.1-9 C:\Users\ASUS\.gradle\caches\transforms-3\51b9bd2beaeaddde3df90fa57a8a3a3d\transformed\lifecycle-viewmodel-ktx-2.5.1\res
-com.pad1.padrumahbelajar.app-navigation-fragment-2.5.3-10 C:\Users\ASUS\.gradle\caches\transforms-3\578353dfc6e08d4a6a79aad17ce0f950\transformed\navigation-fragment-2.5.3\res
-com.pad1.padrumahbelajar.app-transition-1.4.1-11 C:\Users\ASUS\.gradle\caches\transforms-3\5d4110769af9163e6071065e275ea74f\transformed\transition-1.4.1\res
-com.pad1.padrumahbelajar.app-appcompat-1.5.1-12 C:\Users\ASUS\.gradle\caches\transforms-3\5d666d306352f7fdca8df50525096bc2\transformed\appcompat-1.5.1\res
-com.pad1.padrumahbelajar.app-navigation-runtime-2.5.3-13 C:\Users\ASUS\.gradle\caches\transforms-3\66894908161bd9f38bd8e48df5ef2a1e\transformed\navigation-runtime-2.5.3\res
-com.pad1.padrumahbelajar.app-activity-1.5.1-14 C:\Users\ASUS\.gradle\caches\transforms-3\68ebb38e13faf4391dab4addbfffac49\transformed\activity-1.5.1\res
-com.pad1.padrumahbelajar.app-lifecycle-livedata-2.5.1-15 C:\Users\ASUS\.gradle\caches\transforms-3\6ad65893864227e983047caab092aeef\transformed\lifecycle-livedata-2.5.1\res
-com.pad1.padrumahbelajar.app-lifecycle-runtime-2.5.1-16 C:\Users\ASUS\.gradle\caches\transforms-3\71e4318e68333ee5211cad9a5d7dfe56\transformed\lifecycle-runtime-2.5.1\res
-com.pad1.padrumahbelajar.app-navigation-common-2.5.3-17 C:\Users\ASUS\.gradle\caches\transforms-3\73773efde36b1e934b3f1550f77c5c5b\transformed\navigation-common-2.5.3\res
-com.pad1.padrumahbelajar.app-constraintlayout-2.1.4-18 C:\Users\ASUS\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\res
-com.pad1.padrumahbelajar.app-lifecycle-livedata-core-2.5.1-19 C:\Users\ASUS\.gradle\caches\transforms-3\8969035349e55fc4d6c445647f722696\transformed\lifecycle-livedata-core-2.5.1\res
-com.pad1.padrumahbelajar.app-fragment-ktx-1.5.4-20 C:\Users\ASUS\.gradle\caches\transforms-3\8a928418e2833eb8ebbac8b61420281e\transformed\fragment-ktx-1.5.4\res
-com.pad1.padrumahbelajar.app-lifecycle-viewmodel-savedstate-2.5.1-21 C:\Users\ASUS\.gradle\caches\transforms-3\8aa4d154a755d3bc4c243974543ce682\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
-com.pad1.padrumahbelajar.app-viewpager2-1.0.0-22 C:\Users\ASUS\.gradle\caches\transforms-3\96e7554634152527609a0a2a210aa86b\transformed\viewpager2-1.0.0\res
-com.pad1.padrumahbelajar.app-lifecycle-livedata-ktx-2.5.1-23 C:\Users\ASUS\.gradle\caches\transforms-3\973076ab684cbd110d3e7e378f344952\transformed\lifecycle-livedata-ktx-2.5.1\res
-com.pad1.padrumahbelajar.app-lifecycle-runtime-ktx-2.5.1-24 C:\Users\ASUS\.gradle\caches\transforms-3\988910848b1b5147332cf257e9fec7c3\transformed\lifecycle-runtime-ktx-2.5.1\res
-com.pad1.padrumahbelajar.app-appcompat-resources-1.5.1-25 C:\Users\ASUS\.gradle\caches\transforms-3\9957f677aa4ca64938f214cf1fa220ad\transformed\appcompat-resources-1.5.1\res
-com.pad1.padrumahbelajar.app-emoji2-1.2.0-26 C:\Users\ASUS\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\res
-com.pad1.padrumahbelajar.app-circleimageview-3.1.0-27 C:\Users\ASUS\.gradle\caches\transforms-3\a17149fd6db7d5dec43c02b8b457e99f\transformed\circleimageview-3.1.0\res
-com.pad1.padrumahbelajar.app-recyclerview-1.2.1-28 C:\Users\ASUS\.gradle\caches\transforms-3\a37bf7661255a6a0a3e20f2d11ec700f\transformed\recyclerview-1.2.1\res
-com.pad1.padrumahbelajar.app-lifecycle-process-2.4.1-29 C:\Users\ASUS\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\res
-com.pad1.padrumahbelajar.app-glide-4.12.0-30 C:\Users\ASUS\.gradle\caches\transforms-3\b040484501b7a8f688c23f3aabf50221\transformed\glide-4.12.0\res
-com.pad1.padrumahbelajar.app-material-1.7.0-31 C:\Users\ASUS\.gradle\caches\transforms-3\b26501d9553d08a11b3cfe721422cf55\transformed\material-1.7.0\res
-com.pad1.padrumahbelajar.app-fragment-1.5.4-32 C:\Users\ASUS\.gradle\caches\transforms-3\b368cb9309e874a3fd0fc0e73f6bb1f5\transformed\fragment-1.5.4\res
-com.pad1.padrumahbelajar.app-lifecycle-livedata-core-ktx-2.5.1-33 C:\Users\ASUS\.gradle\caches\transforms-3\c6ae280b67e78041650385721a33c510\transformed\lifecycle-livedata-core-ktx-2.5.1\res
-com.pad1.padrumahbelajar.app-annotation-experimental-1.1.0-34 C:\Users\ASUS\.gradle\caches\transforms-3\cdcb8e50109b2c2b9e961e9ab007ca34\transformed\annotation-experimental-1.1.0\res
-com.pad1.padrumahbelajar.app-activity-ktx-1.5.1-35 C:\Users\ASUS\.gradle\caches\transforms-3\cfafa4f5d6b37279801c0e9285eec886\transformed\activity-ktx-1.5.1\res
-com.pad1.padrumahbelajar.app-cardview-1.0.0-36 C:\Users\ASUS\.gradle\caches\transforms-3\d4c9e45086bb311ab5f003976f396c14\transformed\cardview-1.0.0\res
-com.pad1.padrumahbelajar.app-startup-runtime-1.1.1-37 C:\Users\ASUS\.gradle\caches\transforms-3\dd26f7af4232aa82cd84cd79d410c8bc\transformed\startup-runtime-1.1.1\res
+com.pad1.padrumahbelajar.app-jetified-savedstate-ktx-1.2.0-0 C:\Users\ASUS\.gradle\caches\transforms-3\00944167d01d71bf791c6a8051801f77\transformed\jetified-savedstate-ktx-1.2.0\res
+com.pad1.padrumahbelajar.app-jetified-fragment-ktx-1.5.4-1 C:\Users\ASUS\.gradle\caches\transforms-3\00edc9bb64b076c80cdbc7b42c1e561b\transformed\jetified-fragment-ktx-1.5.4\res
+com.pad1.padrumahbelajar.app-core-1.8.0-2 C:\Users\ASUS\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\res
+com.pad1.padrumahbelajar.app-jetified-lifecycle-viewmodel-ktx-2.5.1-3 C:\Users\ASUS\.gradle\caches\transforms-3\0c31c340488affaa3b96a93438ed2582\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\res
+com.pad1.padrumahbelajar.app-slidingpanelayout-1.2.0-4 C:\Users\ASUS\.gradle\caches\transforms-3\1250affac99cc108bdc075f3eae6a3a7\transformed\slidingpanelayout-1.2.0\res
+com.pad1.padrumahbelajar.app-jetified-savedstate-1.2.0-5 C:\Users\ASUS\.gradle\caches\transforms-3\141897d0c032bfa9d3757b1eee182714\transformed\jetified-savedstate-1.2.0\res
+com.pad1.padrumahbelajar.app-jetified-activity-ktx-1.5.1-6 C:\Users\ASUS\.gradle\caches\transforms-3\1b58ab64ad47c19b66ceaea7725471e5\transformed\jetified-activity-ktx-1.5.1\res
+com.pad1.padrumahbelajar.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-7 C:\Users\ASUS\.gradle\caches\transforms-3\1d93f347aa936c47d45701e04a42a425\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.pad1.padrumahbelajar.app-lifecycle-viewmodel-2.5.1-8 C:\Users\ASUS\.gradle\caches\transforms-3\25de86d634bfa2fae72a44174347ec38\transformed\lifecycle-viewmodel-2.5.1\res
+com.pad1.padrumahbelajar.app-drawerlayout-1.1.1-9 C:\Users\ASUS\.gradle\caches\transforms-3\40385b749faeb1e28d272b77cbb8f0b1\transformed\drawerlayout-1.1.1\res
+com.pad1.padrumahbelajar.app-jetified-annotation-experimental-1.1.0-10 C:\Users\ASUS\.gradle\caches\transforms-3\458619b281edf38572d58e052c6fe20b\transformed\jetified-annotation-experimental-1.1.0\res
+com.pad1.padrumahbelajar.app-jetified-viewpager2-1.0.0-11 C:\Users\ASUS\.gradle\caches\transforms-3\4db3d9e1c96e97f29832aa772b52264a\transformed\jetified-viewpager2-1.0.0\res
+com.pad1.padrumahbelajar.app-jetified-startup-runtime-1.1.1-12 C:\Users\ASUS\.gradle\caches\transforms-3\4e36488ce7175ae8c877ecb2bcf3d6d5\transformed\jetified-startup-runtime-1.1.1\res
+com.pad1.padrumahbelajar.app-jetified-lifecycle-livedata-core-ktx-2.5.1-13 C:\Users\ASUS\.gradle\caches\transforms-3\4ebe779b919de3196066dedec098b906\transformed\jetified-lifecycle-livedata-core-ktx-2.5.1\res
+com.pad1.padrumahbelajar.app-navigation-fragment-2.5.3-14 C:\Users\ASUS\.gradle\caches\transforms-3\578353dfc6e08d4a6a79aad17ce0f950\transformed\navigation-fragment-2.5.3\res
+com.pad1.padrumahbelajar.app-transition-1.4.1-15 C:\Users\ASUS\.gradle\caches\transforms-3\5d4110769af9163e6071065e275ea74f\transformed\transition-1.4.1\res
+com.pad1.padrumahbelajar.app-appcompat-1.5.1-16 C:\Users\ASUS\.gradle\caches\transforms-3\5d666d306352f7fdca8df50525096bc2\transformed\appcompat-1.5.1\res
+com.pad1.padrumahbelajar.app-jetified-window-1.0.0-17 C:\Users\ASUS\.gradle\caches\transforms-3\667a55a46d542d987d1cb5838a22b5f6\transformed\jetified-window-1.0.0\res
+com.pad1.padrumahbelajar.app-navigation-runtime-2.5.3-18 C:\Users\ASUS\.gradle\caches\transforms-3\66894908161bd9f38bd8e48df5ef2a1e\transformed\navigation-runtime-2.5.3\res
+com.pad1.padrumahbelajar.app-jetified-emoji2-1.2.0-19 C:\Users\ASUS\.gradle\caches\transforms-3\69e8195e0af1903606758bebf50c459d\transformed\jetified-emoji2-1.2.0\res
+com.pad1.padrumahbelajar.app-lifecycle-livedata-2.5.1-20 C:\Users\ASUS\.gradle\caches\transforms-3\6ad65893864227e983047caab092aeef\transformed\lifecycle-livedata-2.5.1\res
+com.pad1.padrumahbelajar.app-jetified-lifecycle-livedata-ktx-2.5.1-21 C:\Users\ASUS\.gradle\caches\transforms-3\6df1df62a8457f4f9a53c41eceec3089\transformed\jetified-lifecycle-livedata-ktx-2.5.1\res
+com.pad1.padrumahbelajar.app-lifecycle-runtime-2.5.1-22 C:\Users\ASUS\.gradle\caches\transforms-3\71e4318e68333ee5211cad9a5d7dfe56\transformed\lifecycle-runtime-2.5.1\res
+com.pad1.padrumahbelajar.app-navigation-common-2.5.3-23 C:\Users\ASUS\.gradle\caches\transforms-3\73773efde36b1e934b3f1550f77c5c5b\transformed\navigation-common-2.5.3\res
+com.pad1.padrumahbelajar.app-constraintlayout-2.1.4-24 C:\Users\ASUS\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\res
+com.pad1.padrumahbelajar.app-lifecycle-livedata-core-2.5.1-25 C:\Users\ASUS\.gradle\caches\transforms-3\8969035349e55fc4d6c445647f722696\transformed\lifecycle-livedata-core-2.5.1\res
+com.pad1.padrumahbelajar.app-jetified-glide-4.12.0-26 C:\Users\ASUS\.gradle\caches\transforms-3\8ae98c978a254b9158048ca2c3cf9c70\transformed\jetified-glide-4.12.0\res
+com.pad1.padrumahbelajar.app-media-1.0.0-27 C:\Users\ASUS\.gradle\caches\transforms-3\8e4789385d1dbba8cd6afa20d54cf6bd\transformed\media-1.0.0\res
+com.pad1.padrumahbelajar.app-jetified-appcompat-resources-1.5.1-28 C:\Users\ASUS\.gradle\caches\transforms-3\9fcd71b74993ce137981334ebd65f441\transformed\jetified-appcompat-resources-1.5.1\res
+com.pad1.padrumahbelajar.app-jetified-lifecycle-process-2.4.1-29 C:\Users\ASUS\.gradle\caches\transforms-3\a2a5ae00951a98f5c9bbf6406733a104\transformed\jetified-lifecycle-process-2.4.1\res
+com.pad1.padrumahbelajar.app-recyclerview-1.2.1-30 C:\Users\ASUS\.gradle\caches\transforms-3\a37bf7661255a6a0a3e20f2d11ec700f\transformed\recyclerview-1.2.1\res
+com.pad1.padrumahbelajar.app-jetified-circleimageview-3.1.0-31 C:\Users\ASUS\.gradle\caches\transforms-3\adbf48568aa71a8987c90ada66cd7e3d\transformed\jetified-circleimageview-3.1.0\res
+com.pad1.padrumahbelajar.app-material-1.7.0-32 C:\Users\ASUS\.gradle\caches\transforms-3\b26501d9553d08a11b3cfe721422cf55\transformed\material-1.7.0\res
+com.pad1.padrumahbelajar.app-fragment-1.5.4-33 C:\Users\ASUS\.gradle\caches\transforms-3\b368cb9309e874a3fd0fc0e73f6bb1f5\transformed\fragment-1.5.4\res
+com.pad1.padrumahbelajar.app-jetified-activity-1.5.1-34 C:\Users\ASUS\.gradle\caches\transforms-3\bdb8853997bc265ee9161be0ce5c88e2\transformed\jetified-activity-1.5.1\res
+com.pad1.padrumahbelajar.app-jetified-android-pdf-viewer-2.8.2-35 C:\Users\ASUS\.gradle\caches\transforms-3\cb5b8d6b5b75a570823141341e0087c3\transformed\jetified-android-pdf-viewer-2.8.2\res
+com.pad1.padrumahbelajar.app-jetified-core-ktx-1.8.0-36 C:\Users\ASUS\.gradle\caches\transforms-3\d1def142f42c2ba348d5f5078c6078f6\transformed\jetified-core-ktx-1.8.0\res
+com.pad1.padrumahbelajar.app-cardview-1.0.0-37 C:\Users\ASUS\.gradle\caches\transforms-3\d4c9e45086bb311ab5f003976f396c14\transformed\cardview-1.0.0\res
 com.pad1.padrumahbelajar.app-navigation-ui-2.3.5-38 C:\Users\ASUS\.gradle\caches\transforms-3\dfaa223da9a2dec4716992408f2eb043\transformed\navigation-ui-2.3.5\res
-com.pad1.padrumahbelajar.app-coordinatorlayout-1.1.0-39 C:\Users\ASUS\.gradle\caches\transforms-3\f911dcf170c4355b55309601278b778a\transformed\coordinatorlayout-1.1.0\res
-com.pad1.padrumahbelajar.app-pngs-40 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\generated\res\pngs\debug
-com.pad1.padrumahbelajar.app-resValues-41 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\generated\res\resValues\debug
-com.pad1.padrumahbelajar.app-rs-42 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\generated\res\rs\debug
-com.pad1.padrumahbelajar.app-packageDebugResources-43 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.pad1.padrumahbelajar.app-packageDebugResources-44 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.pad1.padrumahbelajar.app-merged_res-45 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\intermediates\merged_res\debug
-com.pad1.padrumahbelajar.app-debug-46 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\debug\res
-com.pad1.padrumahbelajar.app-main-47 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\res
+com.pad1.padrumahbelajar.app-jetified-lifecycle-runtime-ktx-2.5.1-39 C:\Users\ASUS\.gradle\caches\transforms-3\ec21863584e8aeed43de747e34e99cfd\transformed\jetified-lifecycle-runtime-ktx-2.5.1\res
+com.pad1.padrumahbelajar.app-jetified-emoji2-views-helper-1.2.0-40 C:\Users\ASUS\.gradle\caches\transforms-3\f7aa6055ca45ba18dd8c235f594492ff\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.pad1.padrumahbelajar.app-coordinatorlayout-1.1.0-41 C:\Users\ASUS\.gradle\caches\transforms-3\f911dcf170c4355b55309601278b778a\transformed\coordinatorlayout-1.1.0\res
+com.pad1.padrumahbelajar.app-pngs-42 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\generated\res\pngs\debug
+com.pad1.padrumahbelajar.app-resValues-43 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\generated\res\resValues\debug
+com.pad1.padrumahbelajar.app-rs-44 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\generated\res\rs\debug
+com.pad1.padrumahbelajar.app-packageDebugResources-45 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.pad1.padrumahbelajar.app-packageDebugResources-46 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.pad1.padrumahbelajar.app-merged_res-47 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\build\intermediates\merged_res\debug
+com.pad1.padrumahbelajar.app-debug-48 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\debug\res
+com.pad1.padrumahbelajar.app-main-49 D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\res

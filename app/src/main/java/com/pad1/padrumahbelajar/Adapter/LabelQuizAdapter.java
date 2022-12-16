@@ -1,5 +1,7 @@
 package com.pad1.padrumahbelajar.Adapter;
 
+import static android.content.ContentValues.TAG;
+
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -14,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.pad1.padrumahbelajar.R;
@@ -21,6 +24,9 @@ import com.pad1.padrumahbelajar.api.BaseApiService;
 import com.pad1.padrumahbelajar.api.UtilsApi;
 import com.pad1.padrumahbelajar.model.QuizData;
 import com.pad1.padrumahbelajar.quiz.DetailQuizActivity;
+import com.pad1.padrumahbelajar.quiz.HistoryActivity;
+import com.pad1.padrumahbelajar.quiz.HistoryData;
+import com.pad1.padrumahbelajar.quiz.HistoryResponse;
 import com.pad1.padrumahbelajar.quiz.LabelQuizActivity;
 
 import org.json.JSONException;
@@ -39,6 +45,7 @@ public class LabelQuizAdapter extends RecyclerView.Adapter<LabelQuizAdapter.List
     private Context context;
     private ArrayList<QuizData> resultList;
     private String token;
+
     public LabelQuizAdapter(Context context, ArrayList<QuizData> resultList, String token) {
         this.context = context;
         this.resultList = resultList;
@@ -69,6 +76,16 @@ public class LabelQuizAdapter extends RecyclerView.Adapter<LabelQuizAdapter.List
         if (this.token.length() == 5){
             holder.btnHapusQuiz.setVisibility(View.GONE);
         }
+
+        holder.btnHistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), HistoryActivity.class);
+                intent.putExtra("token", resultList.get(position).getToken());
+                view.getContext().startActivity(intent);
+            }
+        });
+
         holder.btnHapusQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,9 +102,7 @@ public class LabelQuizAdapter extends RecyclerView.Adapter<LabelQuizAdapter.List
                                         if (jsonRESULTS.getString("status").equals("success")) {
                                             Toast.makeText(context, "Berhasil Menghapus", Toast.LENGTH_SHORT).show();
                                         }
-                                    } catch (JSONException e) {
-                                        e.printStackTrace();
-                                    } catch (IOException e) {
+                                    } catch (JSONException | IOException e) {
                                         e.printStackTrace();
                                     }
                                 }
@@ -133,8 +148,11 @@ public class LabelQuizAdapter extends RecyclerView.Adapter<LabelQuizAdapter.List
     public class ListViewHolder extends RecyclerView.ViewHolder{
 
         TextView tv1,tv2;
-        Button btnHapusQuiz;
+        Button btnHapusQuiz, btnHistory;
         BaseApiService mApiService2;
+        private HistoryAdapter adapter;
+        RecyclerView recyclerView;
+
 
         public ListViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -142,7 +160,10 @@ public class LabelQuizAdapter extends RecyclerView.Adapter<LabelQuizAdapter.List
             tv1 = itemView.findViewById(R.id.tvMapel);
             tv2 = itemView.findViewById(R.id.tvQuiz);
             btnHapusQuiz = itemView.findViewById(R.id.btnHapusQuiz);
+            btnHistory = itemView.findViewById(R.id.btnHistory);
             mApiService2 = UtilsApi.getAPIService();
+            recyclerView = itemView.findViewById(R.id.rvHistory);
+//            recyclerView.setLayoutManager(new LinearLayoutManager(context.getApplicationContext()));
         }
     }
 }

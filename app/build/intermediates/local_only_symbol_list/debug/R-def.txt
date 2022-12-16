@@ -55,6 +55,7 @@ drawable gradient
 drawable header_bg
 drawable home_bg
 drawable ic_add
+drawable ic_baseline_restore_from_trash_24
 drawable ic_class
 drawable ic_dashboard_black_24dp
 drawable ic_home2
@@ -66,6 +67,7 @@ drawable ic_quiz
 drawable ic_quiz2
 drawable ic_setting
 drawable icon404
+drawable icon_trash_neon
 drawable iconlogin
 drawable iconprofile
 drawable imgtutor
@@ -80,6 +82,7 @@ drawable logo_bab7
 drawable piala
 drawable rectangle
 drawable setting
+drawable trash_icon
 font dm_sans
 font dm_sans_medium
 font libre_franklin
@@ -99,6 +102,7 @@ id btnClear
 id btnFinish
 id btnHapus
 id btnHapusQuiz
+id btnHistory
 id btnSubmit
 id btn_logout
 id btn_tambah
@@ -111,6 +115,7 @@ id cons
 id constraintLayout2
 id container
 id cv
+id cvHist
 id editTextConfirm
 id editTextEmail
 id editTextName
@@ -132,12 +137,15 @@ id imageViewQuizOption
 id imageViewStartQuizGeographyOrLiterature
 id imageViewlgn
 id imgBack
+id imgHistBack
 id img_back
 id kelas
 id layout1
 id linear1
 id linear2
 id linear3
+id llBab1
+id llBab2
 id logo
 id materi
 id mobile_navigation
@@ -154,6 +162,7 @@ id opsi_b4
 id opsi_b5
 id opsi_b6
 id opsi_b7
+id pdfView
 id profile
 id quiz
 id radioButton
@@ -179,11 +188,11 @@ id recyclerView2
 id recyclerViewQuiz
 id rg
 id rv1
+id rvHistory
 id rv_kelas
 id textView
 id textView10
 id textView11
-id textView12
 id textView13
 id textView14
 id textView15
@@ -217,6 +226,12 @@ id tv6
 id tv7
 id tvBenar
 id tvGuru
+id tvHistBenar
+id tvHistKosong
+id tvHistNama
+id tvHistNilai
+id tvHistPercobaan
+id tvHistSalah
 id tvKelas
 id tvKosong
 id tvMapel
@@ -233,6 +248,7 @@ layout activity_add_materi
 layout activity_add_question
 layout activity_detail_materi
 layout activity_detail_quiz
+layout activity_history
 layout activity_label_quiz
 layout activity_login
 layout activity_main
@@ -251,6 +267,7 @@ layout fragment_class
 layout fragment_home2
 layout fragment_profile
 layout fragment_quiz
+layout item_history
 layout item_kelas
 layout item_label_quiz
 layout item_materi

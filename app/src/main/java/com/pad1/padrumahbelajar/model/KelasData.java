@@ -3,6 +3,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class KelasData {
 
+
     @SerializedName("token")
     private String token;
 
@@ -29,6 +30,7 @@ public class KelasData {
     public void setNamaKelas(String namaKelas) {
         this.namaKelas = namaKelas;
     }
+
 
     @SerializedName("ikon")
     private String ikon;
