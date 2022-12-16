@@ -2675,6 +2675,7 @@ int drawable ic_quiz2 0x7f08009f
 int drawable ic_setting 0x7f0800a0
 int drawable icon404 0x7f0800a1
 int drawable iconlogin 0x7f0800a2
+int drawable iconprofile 0x7f0800f6
 int drawable imgtutor 0x7f0800a3
 int drawable logo2 0x7f0800a4
 int drawable logo_bab1 0x7f0800a5
@@ -3310,7 +3311,6 @@ int id textView5 0x7f0a021d
 int id textView6 0x7f0a021e
 int id textView7 0x7f0a021f
 int id textView78 0x7f0a0220
-int id textView8 0x7f0a0221
 int id textView9 0x7f0a0222
 int id textViewDont 0x7f0a0223
 int id textViewSignup 0x7f0a0224
@@ -3365,6 +3365,8 @@ int id tvPercobaan 0x7f0a0254
 int id tvQuestion 0x7f0a0255
 int id tvQuiz 0x7f0a0256
 int id tvSalah 0x7f0a0257
+int id tvtoken 0x7f0a0270
+int id tvusername 0x7f0a0271
 int id unchecked 0x7f0a0258
 int id uniform 0x7f0a0259
 int id unlabeled 0x7f0a025a
@@ -3512,6 +3514,8 @@ int layout abc_search_view 0x7f0d0019
 int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_add_label 0x7f0d001c
+int layout activity_add_label_materi 0x7f0d0080
+int layout activity_add_materi 0x7f0d0081
 int layout activity_add_question 0x7f0d001d
 int layout activity_detail_materi 0x7f0d001e
 int layout activity_detail_quiz 0x7f0d001f
@@ -3527,6 +3531,7 @@ int layout activity_tutorial 0x7f0d0028
 int layout activity_tutorial2 0x7f0d0029
 int layout activity_tutorial3 0x7f0d002a
 int layout activity_welcome 0x7f0d002b
+int layout add_questionstest 0x7f0d007f
 int layout coba 0x7f0d002c
 int layout custom_dialog 0x7f0d002d
 int layout design_bottom_navigation_item 0x7f0d002e

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-77:12
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-83:12
 MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\ASUS\.gradle\caches\transforms-3\7c89c8a34c2ecc728308042ac673d46f\transformed\viewbinding-7.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\ASUS\.gradle\caches\transforms-3\dfaa223da9a2dec4716992408f2eb043\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\b26501d9553d08a11b3cfe721422cf55\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
@@ -62,25 +62,29 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ASUS\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\be78f20c96fdd8562774ce9c33a112b9\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\f1c1f6112ea6a1f399972dce89bf2eda\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\cdcb8e50109b2c2b9e961e9ab007ca34\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-77:12
-INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-83:12
 	package
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:4:5-39
 		INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml
 		INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-77:12
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-83:12
 		INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-77:12
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:1-83:12
 		INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:5:22-77
 uses-permission#android.permission.INTERNET
 ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
@@ -90,7 +94,7 @@ ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_Rum
 	android:name
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:7:22-76
 application
-ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:9:5-75:19
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:9:5-81:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\b26501d9553d08a11b3cfe721422cf55\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\b26501d9553d08a11b3cfe721422cf55\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ASUS\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -133,114 +137,126 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\AS
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:17:9-53
 	android:dataExtractionRules
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:11:9-65
-activity#com.pad1.padrumahbelajar.materi.DetailMateriActivity
+activity#com.pad1.padrumahbelajar.materi.AddMateriActivity
 ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:20:13-56
-activity#com.pad1.padrumahbelajar.quiz.ResultActivity
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:20:13-53
+activity#com.pad1.padrumahbelajar.materi.AddLabelMateriActivity
 ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:23:13-48
-activity#com.pad1.padrumahbelajar.login.LoginActivity
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:23:13-58
+activity#com.pad1.padrumahbelajar.materi.DetailMateriActivity
 ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:26:13-48
-activity#com.pad1.padrumahbelajar.quiz.LabelQuizActivity
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:26:13-56
+activity#com.pad1.padrumahbelajar.quiz.ResultActivity
 ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:29:13-51
-activity#com.pad1.padrumahbelajar.quiz.DetailQuizActivity
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:29:13-48
+activity#com.pad1.padrumahbelajar.login.LoginActivity
 ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:32:13-52
-activity#com.pad1.padrumahbelajar.quiz.AddQuestionActivity
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:32:13-48
+activity#com.pad1.padrumahbelajar.quiz.LabelQuizActivity
 ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:35:13-53
-activity#com.pad1.padrumahbelajar.quiz.AddLabelQuiz
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:35:13-51
+activity#com.pad1.padrumahbelajar.quiz.DetailQuizActivity
 ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:38:13-46
-activity#com.pad1.padrumahbelajar.quiz.QuizActivity
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:38:13-52
+activity#com.pad1.padrumahbelajar.quiz.AddQuestionActivity
 ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:40:9-42:40
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:41:13-46
-activity#com.pad1.padrumahbelajar.tutorial.TutorialActivity3
-ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:43:9-48:72
-	android:parentActivityName
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:47:13-62
-	android:label
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:46:13-61
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:41:13-53
+activity#com.pad1.padrumahbelajar.quiz.AddLabelQuiz
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:43:9-45:40
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:45:13-37
-	android:theme
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:48:13-69
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:44:13-55
-activity#com.pad1.padrumahbelajar.tutorial.TutorialActivity2
-ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:49:9-51:40
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:44:13-46
+activity#com.pad1.padrumahbelajar.quiz.QuizActivity
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:46:9-48:40
+	android:exported
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:47:13-46
+activity#com.pad1.padrumahbelajar.tutorial.TutorialActivity3
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:49:9-54:72
+	android:parentActivityName
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:53:13-62
+	android:label
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:52:13-61
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:51:13-37
+	android:theme
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:54:13-69
 	android:name
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:50:13-55
-activity#com.pad1.padrumahbelajar.tutorial.TutorialActivity
-ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:52:9-54:40
-	android:exported
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:54:13-37
-	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:53:13-54
-activity#com.pad1.padrumahbelajar.login.SignUpActivity
+activity#com.pad1.padrumahbelajar.tutorial.TutorialActivity2
 ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:55:9-57:40
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:57:13-37
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:56:13-49
-activity#com.pad1.padrumahbelajar.fragment.MainActivity
-ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:58:9-61:65
-	android:parentActivityName
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:61:13-62
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:56:13-55
+activity#com.pad1.padrumahbelajar.tutorial.TutorialActivity
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:58:9-60:40
 	android:exported
 		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:59:13-50
-activity#com.pad1.padrumahbelajar.login.SplashScreen
-ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:62:9-70:20
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:59:13-54
+activity#com.pad1.padrumahbelajar.login.SignUpActivity
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:61:9-63:40
 	android:exported
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:64:13-36
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:63:13-47
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:62:13-49
+activity#com.pad1.padrumahbelajar.fragment.MainActivity
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:64:9-67:65
+	android:parentActivityName
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:67:13-62
+	android:exported
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:65:13-50
+activity#com.pad1.padrumahbelajar.login.SplashScreen
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:68:9-76:20
+	android:exported
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:70:13-36
+	android:name
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:69:13-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:65:13-69:29
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:71:13-75:29
 action#android.intent.action.MAIN
-ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:66:17-69
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:72:17-69
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:66:25-66
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:72:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:68:17-77
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:74:17-77
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:68:27-74
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:74:27-74
 meta-data#preloaded_fonts
-ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:72:9-74:57
+ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:78:9-80:57
 	android:resource
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:74:13-54
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:80:13-54
 	android:name
-		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:73:13-43
+		ADDED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml:79:13-43
 uses-sdk
 INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\UGM\Semester 3\Proyek Aplikasi Dasar 1\Final-Rumah-Belajar\PAD_RumahBelajar\app\src\main\AndroidManifest.xml

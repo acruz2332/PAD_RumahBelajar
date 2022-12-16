@@ -2676,6 +2676,7 @@ drawable ic_quiz2
 drawable ic_setting
 drawable icon404
 drawable iconlogin
+drawable iconprofile
 drawable imgtutor
 drawable logo2
 drawable logo_bab1
@@ -3311,7 +3312,6 @@ id textView5
 id textView6
 id textView7
 id textView78
-id textView8
 id textView9
 id textViewDont
 id textViewSignup
@@ -3366,6 +3366,8 @@ id tvPercobaan
 id tvQuestion
 id tvQuiz
 id tvSalah
+id tvtoken
+id tvusername
 id unchecked
 id uniform
 id unlabeled
@@ -3513,6 +3515,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_label
+layout activity_add_label_materi
+layout activity_add_materi
 layout activity_add_question
 layout activity_detail_materi
 layout activity_detail_quiz
@@ -3528,6 +3532,7 @@ layout activity_tutorial
 layout activity_tutorial2
 layout activity_tutorial3
 layout activity_welcome
+layout add_questionstest
 layout coba
 layout custom_dialog
 layout design_bottom_navigation_item

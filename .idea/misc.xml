@@ -81,7 +81,8 @@
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/font/poppins_light.xml" value="0.20256410256410257" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/font/poppins_medium.xml" value="0.20256410256410257" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/activity_add_label.xml" value="0.14666666666666667" />
-        <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/activity_add_question.xml" value="0.22" />
+        <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/activity_add_label_materi.xml" value="0.16666666666666666" />
+        <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/activity_add_question.xml" value="0.3333333333333333" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/activity_detail_materi.xml" value="0.1480978260869565" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/activity_detail_quiz.xml" value="0.22" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/activity_label_quiz.xml" value="0.14666666666666667" />
@@ -92,12 +93,13 @@
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/activity_result.xml" value="0.22" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/activity_sign_up.xml" value="0.16666666666666666" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/activity_splash_screen.xml" value="0.12864583333333332" />
+        <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/add_questionstest.xml" value="0.1480978260869565" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/bottom_navbar.xml" value="0.12864583333333332" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/coba.xml" value="0.22" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/dialog_custom.xml" value="0.12864583333333332" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/fragment_class.xml" value="0.22" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/fragment_home2.xml" value="0.13333333333333333" />
-        <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/fragment_profile.xml" value="0.14666666666666667" />
+        <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/fragment_profile.xml" value="0.16666666666666666" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/fragment_quiz.xml" value="0.16666666666666666" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/item_kelas.xml" value="0.3333333333333333" />
         <entry key="..\:/UGM/Semester 3/Proyek Aplikasi Dasar 1/Final-Rumah-Belajar/PAD_RumahBelajar/app/src/main/res/layout/item_label_quiz.xml" value="0.22" />

@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.pad1.padrumahbelajar.R;
 import com.pad1.padrumahbelajar.SharedPrefManager;
@@ -22,6 +23,8 @@ public class ProfileFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
     Button btnLogout;
+    TextView token, username;
+    SharedPrefManager sp;
 //    SharedPrefManager sharedPref = SharedPrefManager.getInstance();
 
     public ProfileFragment() {
@@ -49,6 +52,12 @@ public class ProfileFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
         btnLogout = view.findViewById(R.id.btn_logout);
+        sp = new SharedPrefManager(this.getContext());
+        token = view.findViewById(R.id.tvtoken);
+        username = view.findViewById(R.id.tvusername);
+        token.setText(sp.getSpToken());
+        username.setText(sp.getSpUsername());
+
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

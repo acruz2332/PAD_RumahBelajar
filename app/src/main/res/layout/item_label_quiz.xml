@@ -14,8 +14,8 @@
         android:padding="10dp">
 
         <LinearLayout
-            android:layout_width="280dp"
-            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
             android:orientation="vertical">
 
             <TextView
@@ -40,21 +40,22 @@
                 android:textColor="@color/biru_tua2"
                 android:textSize="15dp" />
 
+            <Button
+                android:id="@+id/btnHapusQuiz"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Hapus"
+                android:layout_gravity="end"
+                android:background="@drawable/button_danger"
+                android:textColor="#FAFAFA"
+                android:gravity="center"
+                android:layout_marginLeft="-50dp">
+            </Button>
 
 
 
         </LinearLayout>
-        <Button
-            android:id="@+id/btnHapusQuiz"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:text="Hapus"
-            android:layout_gravity="center"
-            android:background="@drawable/button_danger"
-            android:textColor="#FAFAFA"
-            android:gravity="center"
-            android:layout_marginLeft="-50dp">
-        </Button>
+
 
     </LinearLayout>
 

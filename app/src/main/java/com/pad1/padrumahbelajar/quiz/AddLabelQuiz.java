@@ -44,8 +44,6 @@ public class AddLabelQuiz extends AppCompatActivity {
         arrow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AddLabelQuiz.this, QuizFragment.class);
-                startActivity(intent);
                 finish();
             }
         });

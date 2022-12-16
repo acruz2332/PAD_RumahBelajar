@@ -16,12 +16,20 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-47:\\layout\\item_label_quiz.xml"
     },
     {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-44:\\layout\\add_questionstest.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-47:\\layout\\add_questionstest.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-44:\\layout\\item_materi.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-47:\\layout\\item_materi.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-44:\\layout\\activity_detail_quiz.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-47:\\layout\\activity_detail_quiz.xml"
+    },
+    {
+        "merged": "com.pad1.padrumahbelajar.app-mergeDebugResources-44:/layout/activity_add_label_materi.xml",
+        "source": "com.pad1.padrumahbelajar.app-main-47:/layout/activity_add_label_materi.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-44:\\layout\\activity_result.xml",
@@ -34,10 +42,6 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-44:\\layout\\activity_quiz2.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-47:\\layout\\activity_quiz2.xml"
-    },
-    {
-        "merged": "com.pad1.padrumahbelajar.app-mergeDebugResources-44:/layout/item_label_quiz.xml",
-        "source": "com.pad1.padrumahbelajar.app-main-47:/layout/item_label_quiz.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-44:\\layout\\activity_tutorial.xml",
@@ -102,5 +106,9 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-44:\\layout\\activity_main2.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-47:\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "com.pad1.padrumahbelajar.app-mergeDebugResources-44:/layout/activity_add_materi.xml",
+        "source": "com.pad1.padrumahbelajar.app-main-47:/layout/activity_add_materi.xml"
     }
 ]

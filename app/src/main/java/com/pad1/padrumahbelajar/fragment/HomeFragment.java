@@ -12,6 +12,7 @@ import android.view.animation.Animation;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.pad1.padrumahbelajar.R;
+import com.pad1.padrumahbelajar.materi.AddLabelMateriActivity;
 import com.pad1.padrumahbelajar.materi.DetailMateriActivity;
 
 
@@ -41,7 +42,14 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view =  inflater.inflate(R.layout.fragment_home2, container, false);
+        fab = view.findViewById(R.id.fab);
 
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getContext(), AddLabelMateriActivity.class));
+            }
+        });
 
 
 

@@ -31,13 +31,7 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final TextView textView11;
 
   @NonNull
-  public final TextView textView12;
-
-  @NonNull
   public final TextView textView5;
-
-  @NonNull
-  public final TextView textView8;
 
   @NonNull
   public final TextView tv1;
@@ -45,19 +39,25 @@ public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
   public final TextView tv2;
 
+  @NonNull
+  public final TextView tvtoken;
+
+  @NonNull
+  public final TextView tvusername;
+
   private FragmentProfileBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogout,
       @NonNull CircleImageView imageView3, @NonNull TextView textView11,
-      @NonNull TextView textView12, @NonNull TextView textView5, @NonNull TextView textView8,
-      @NonNull TextView tv1, @NonNull TextView tv2) {
+      @NonNull TextView textView5, @NonNull TextView tv1, @NonNull TextView tv2,
+      @NonNull TextView tvtoken, @NonNull TextView tvusername) {
     this.rootView = rootView;
     this.btnLogout = btnLogout;
     this.imageView3 = imageView3;
     this.textView11 = textView11;
-    this.textView12 = textView12;
     this.textView5 = textView5;
-    this.textView8 = textView8;
     this.tv1 = tv1;
     this.tv2 = tv2;
+    this.tvtoken = tvtoken;
+    this.tvusername = tvusername;
   }
 
   @Override
@@ -105,21 +105,9 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView12;
-      TextView textView12 = ViewBindings.findChildViewById(rootView, id);
-      if (textView12 == null) {
-        break missingId;
-      }
-
       id = R.id.textView5;
       TextView textView5 = ViewBindings.findChildViewById(rootView, id);
       if (textView5 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView8;
-      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
-      if (textView8 == null) {
         break missingId;
       }
 
@@ -135,8 +123,20 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvtoken;
+      TextView tvtoken = ViewBindings.findChildViewById(rootView, id);
+      if (tvtoken == null) {
+        break missingId;
+      }
+
+      id = R.id.tvusername;
+      TextView tvusername = ViewBindings.findChildViewById(rootView, id);
+      if (tvusername == null) {
+        break missingId;
+      }
+
       return new FragmentProfileBinding((ConstraintLayout) rootView, btnLogout, imageView3,
-          textView11, textView12, textView5, textView8, tv1, tv2);
+          textView11, textView5, tv1, tv2, tvtoken, tvusername);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

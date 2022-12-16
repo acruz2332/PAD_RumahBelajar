@@ -84,6 +84,8 @@
                     android:layout_marginTop="8dp"
                     android:padding="0dp"
                     android:text="BAB I"
+                    android:textColor="#FAFAFA"
+                    android:backgroundTint="#0077B6"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -113,6 +115,8 @@
                     android:layout_marginTop="8dp"
                     android:padding="0dp"
                     android:text="BAB II"
+                    android:textColor="#FAFAFA"
+                    android:backgroundTint="#0077B6"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -142,6 +146,8 @@
                     android:layout_marginTop="8dp"
                     android:padding="0dp"
                     android:text="BAB III"
+                    android:textColor="#FAFAFA"
+                    android:backgroundTint="#0077B6"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -182,6 +188,8 @@
                     android:padding="0dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="8dp"
+                    android:textColor="#FAFAFA"
+                    android:backgroundTint="#0077B6"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -211,6 +219,8 @@
                     android:padding="0dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="8dp"
+                    android:textColor="#FAFAFA"
+                    android:backgroundTint="#0077B6"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -240,6 +250,8 @@
                     android:padding="0dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="8dp"
+                    android:textColor="#FAFAFA"
+                    android:backgroundTint="#0077B6"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -280,6 +292,8 @@
                     android:padding="0dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="8dp"
+                    android:textColor="#FAFAFA"
+                    android:backgroundTint="#0077B6"
                     android:textAlignment="center" />
 
             </LinearLayout>

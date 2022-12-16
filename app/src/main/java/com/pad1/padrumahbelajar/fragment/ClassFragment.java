@@ -77,7 +77,6 @@ public class ClassFragment extends Fragment {
             public void onClick(View v) {
                 Intent intent = new Intent (getContext(), AddLabelQuiz.class);
                 startActivity(intent);
-//                startActivity(new Intent(QuizFragment.this, AddQuestionActivity.class));
             }
         });
 
