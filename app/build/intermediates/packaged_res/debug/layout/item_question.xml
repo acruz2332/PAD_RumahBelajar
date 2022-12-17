@@ -9,7 +9,7 @@
         android:id="@+id/cv"
         style="@style/cardViewStyle"
         android:layout_width="350dp"
-        android:layout_height="338dp"
+        android:layout_height="314dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
@@ -78,22 +78,29 @@
                     android:layout_height="wrap_content"
                     android:text="Jawaban E" />
 
-<!--                <ImageView-->
-<!--                    android:layout_width="52dp"-->
-<!--                    android:layout_height="62dp"-->
-<!--                    android:layout_marginBottom="" -->
-<!--                    android:src="@drawable/icon_trash_neon" />-->
+                <!--                <ImageView-->
+                <!--                    android:layout_width="52dp"-->
+                <!--                    android:layout_height="62dp"-->
+                <!--                    android:layout_marginBottom="" -->
+                <!--                    android:src="@drawable/icon_trash_neon" />-->
 
-                <Button
-                    android:id="@+id/btnHapus"
-                    android:layout_width="100dp"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/button_danger"
-                    android:backgroundTint="#FF5A79"
-                    android:text="Hapus Soal"
-                    android:textColor="#FAFAFA" />
 
             </RadioGroup>
+
+
+            <Button
+                android:id="@+id/btnHapus"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:background="@drawable/button_danger"
+                android:backgroundTint="#FF5A79"
+                android:text="Hapus Soal"
+                android:textColor="#FAFAFA"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rg"
+                app:layout_constraintVertical_bias="0.542" />
 
             <Button
                 android:id="@+id/btnClear"
@@ -105,7 +112,9 @@
                 android:text="Clear"
                 android:textColor="#FAFAFA"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rg"
+                app:layout_constraintVertical_bias="0.703" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
