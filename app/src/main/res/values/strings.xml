@@ -13,6 +13,33 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // Tutorial
+    <string name="tutorial_head">Get to Know More!</string>
+    <string name="tutorial_title">Tutorial 1</string>
+    <string name="tutorial_title2">Tutorial 2</string>
+    <string name="tutorial_title3">Tutorial 3</string>
+
+    <string name="tutorial_desc">Deskripsi Tutorial 1</string>
+    <string name="tutorial_desc2">Deskripsi Tutorial 2</string>
+    <string name="tutorial_desc3">Deskripsi Tutorial 3</string>
+    <string name="sejarah_indonesia">Sejarah Indonesia meliputi suatu rentang waktu yang sangat panjang yang dimulai sejak zaman prasejarah berdasarkan penemuan \'Manusia Jawa\' yang berusia 1,7 juta tahun yang lalu. Periode sejarah Indonesia dapat dibagi menjadi lima era: Era Prakolonial, munculnya kerajaan-kerajaan Hindu-Buddha dan Islam di Jawa, Sumatra, dan Kalimantan yang terutama mengandalkan perdagangan; Era Kolonial, masuknya orang-orang Eropa (terutama Belanda, Portugis, dan Spanyol) yang menginginkan rempah-rempah mengakibatkan penjajahan oleh Belanda selama sekitar 3,5 abad antara awal abad ke-17 hingga pertengahan abad ke-20; Era Kemerdekaan Awal, pasca-Proklamasi Kemerdekaan Indonesia (1945) sampai jatuhnya Soekarno (1966); Era Orde Baru, 32 tahun masa pemerintahan Soeharto (1966–1998); serta Orde Reformasi yang berlangsung sampai sekarang.</string>
+
+    // Materi
+    <string name="materi_matematika">Matematika[b] (dari bahasa Yunani Kuno μάθημα (máthēma), berarti "pengetahuan, pemikiran, pengkajian, pembelajaran"), adalah bidang ilmu, yang mencakup studi tentang topik-topik seperti bilangan (aritmetika dan teori bilangan),[1] rumus dan struktur terkait (aljabar),[2] bangun dan ruang tempat mereka berada (geometri),[1] dan besaran serta perubahannya (kalkulus dan analisis).[3][4][5] Tidak ada kesepakatan umum tentang ruang lingkup yang tepat atau status epistemologisnya.[6][7]
+
+Matematika selalu berkembang, misalnya di Tiongkok pada tahun 300 SM, di India pada tahun 100 M, dan di Arab pada tahun 800 M, hingga zaman Renaisans, ketika temuan baru matematika berinteraksi dengan penemuan ilmiah baru yang mengarah pada peningkatan yang cepat di dalam laju penemuan matematika. Berlanjut hingga kini,[8] matematika digunakan di seluruh dunia sebagai alat penting di berbagai bidang, termasuk ilmu alam, teknik, kedokteran/medis, dan ilmu sosial seperti ekonomi, dan psikologi. Matematika terapan, cabang matematika yang melingkupi penerapan pengetahuan matematika ke bidang-bidang lain, mengilhami dan membuat penggunaan temuan-temuan matematika baru, dan kadang-kadang mengarah pada pengembangan disiplin-disiplin ilmu yang sepenuhnya baru, seperti statistika dan teori permainan.</string>
+
+    <string name="materi_kimia">Kimia adalah cabang dari ilmu fisik yang mempelajari tentang susunan, struktur, sifat, dan perubahan materi.[1][2] Ilmu kimia meliputi topik-topik seperti sifat-sifat atom, cara atom membentuk ikatan kimia untuk menghasilkan senyawa kimia, interaksi zat-zat melalui gaya antarmolekul yang menghasilkan sifat-sifat umum dari materi, dan interaksi antar zat melalui reaksi kimia untuk membentuk zat-zat yang berbeda.
+
+Kimia kadang-kadang disebut sebagai ilmu pengetahuan pusat karena menjembatani ilmu-ilmu pengetahuan alam, termasuk fisika, geologi, dan biologi.[3][4][5]
+
+Para ahli berbeda pendapat mengenai etimologi dari kata kimia. Sejarah kimia dapat ditelusuri kembali sampai pada alkimia, yang sudah dipraktikkan selama beberapa milenia di berbagai belahan dunia.</string>
+
+    <string name="materi_fisika">Fisika (serapan dari bahasa Belanda: fysica, dari bahasa Yunani: φυσικός, translit. fysikós arti "alamiah" atau bahasa Yunani: φύσις, translit. fýsis arti "alam"; bahasa Latin: Physica; bahasa Arab: فيزياء, translit. fīziyāʾ‎) adalah sains atau ilmu alam yang mempelajari materi[1] beserta gerak dan perilakunya dalam lingkup ruang dan waktu, bersamaan dengan konsep yang berkaitan seperti energi dan gaya.[2] Sebagai salah satu ilmu sains paling dasar, tujuan utama fisika adalah memahami bagaimana alam semesta berkerja.[a][3][4][5] Orang atau ilmuwan yang ahli dalam bidang fisika disebut sebagai ahli fisika atau fisikawan.[6][7]</string>
+
+    <string name="materi_agama">Agama adalah sistem yang mengatur kepercayaan serta peribadatan kepada Tuhan (atau sejenisnya) serta tata kaidah yang berhubungan dengan adat istiadat, dan pandangan dunia yang menghubungkan manusia dengan tatanan kehidupan, pelaksanaan agama bisa dipengaruhi oleh adat istiadat daerah setempat. Pada zaman sejarah adat menjadi alat untuk menyampaikan ajaran-ajaran agama[1]. Sementara agama susah untuk didefinisikan, sebuah model standar dari agama, digunakan dalam perkuliahan religious studies, diajukan oleh Clifford Geertz, yang dengan sederhana menyebutnya sebagai sebuah "sistem kultural".[2] Sebuah kritikan untuk model Geertz oleh Talal Asad mengategorikan agama sebagai "sebuah kategori antropologikal." [3] Banyak agama memiliki mitologi, simbol, dan sejarah suci yang dimaksudkan untuk menjelaskan makna, tujuan hidup dan asal-usul kehidupan atau alam semesta. Dari keyakinan mereka tentang kosmos dan sifat manusia, orang-orang memperoleh moralitas, etika, hukum adat, atau gaya hidup yang disukai. Menurut beberapa perkiraan, ada sekitar 4.200 agama di dunia.[4]</string>
+
 </resources>

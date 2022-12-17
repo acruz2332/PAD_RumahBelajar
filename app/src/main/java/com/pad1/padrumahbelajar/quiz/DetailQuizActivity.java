@@ -71,8 +71,17 @@ public class DetailQuizActivity extends AppCompatActivity {
 
         if (sp.getSpToken().length() == 6){
             btnSubmit.setVisibility(View.GONE);
+            arrow.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    finish();
+                }
+            });
+
         }else if (sp.getSpToken().length() == 5){
             fab.setVisibility(View.GONE);
+            arrow.setVisibility(View.GONE);
+            onBackPressed();
         }
 
 
@@ -91,12 +100,7 @@ public class DetailQuizActivity extends AppCompatActivity {
             }
         });
 
-        arrow.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+
 
         mApiService2.questionRequest(token).enqueue(new Callback<QuestionResponse>() {
             @Override
@@ -108,10 +112,11 @@ public class DetailQuizActivity extends AppCompatActivity {
                     try {
                         String nama = questionData.get(0).getJawaban().toString();
                         Log.d("getsucces",nama);
-//                        tv1.setText(nama);
-
                         adapter = new DetailQuizAdapter(DetailQuizActivity.this, questionData, token, sp.getSpToken());
                         recyclerView.setAdapter(adapter);
+//                        LinearLayoutManager llm = new LinearLayoutManager(DetailQuizActivity.this);
+//                        llm.setOrientation(LinearLayoutManager.VERTICAL);
+//                        recyclerView.setLayoutManager(llm);
                         jwb = adapter.jwb;
                     } catch (Exception err) {
                         Log.e(TAG, "Error INIII");
@@ -174,6 +179,13 @@ public class DetailQuizActivity extends AppCompatActivity {
                 jawabanString = "";
             }
         });
-
     }
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(false);
+        Toast.makeText(DetailQuizActivity.this, "Anda Harus Menyelesaikan Kuis Ini!", Toast.LENGTH_LONG).show();
+    }
+
+
 }

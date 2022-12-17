@@ -39,7 +39,6 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.navigation:navigation-fragment:2.5.3'
     implementation 'androidx.navigation:navigation-ui:2.3.5'
-
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
@@ -60,8 +59,12 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
 
     // Pdf Viewer
-//    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
-//    implementation 'com.github.barteksc:AndroidPdfViewer:master-SNAPSHOT'
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+
+    //View Pager Dots Indicator
+    implementation 'com.tbuonomo:dotsindicator:4.2'
+
+    // Youtube View
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0'
 
 }

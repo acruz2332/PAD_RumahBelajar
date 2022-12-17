@@ -12,7 +12,9 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import androidx.viewpager.widget.ViewPager;
 import com.pad1.padrumahbelajar.R;
+import com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -25,26 +27,35 @@ public final class ActivityTutorialBinding implements ViewBinding {
   public final Button buttonGetstrt;
 
   @NonNull
-  public final ImageView imageView2;
+  public final ImageView img;
 
   @NonNull
-  public final TextView textView10;
+  public final SpringDotsIndicator springDotsIndicator;
 
   @NonNull
-  public final TextView textView6;
+  public final TextView tv1;
 
   @NonNull
-  public final TextView textView9;
+  public final TextView tv2;
+
+  @NonNull
+  public final TextView tv3;
+
+  @NonNull
+  public final ViewPager viewPager;
 
   private ActivityTutorialBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonGetstrt,
-      @NonNull ImageView imageView2, @NonNull TextView textView10, @NonNull TextView textView6,
-      @NonNull TextView textView9) {
+      @NonNull ImageView img, @NonNull SpringDotsIndicator springDotsIndicator,
+      @NonNull TextView tv1, @NonNull TextView tv2, @NonNull TextView tv3,
+      @NonNull ViewPager viewPager) {
     this.rootView = rootView;
     this.buttonGetstrt = buttonGetstrt;
-    this.imageView2 = imageView2;
-    this.textView10 = textView10;
-    this.textView6 = textView6;
-    this.textView9 = textView9;
+    this.img = img;
+    this.springDotsIndicator = springDotsIndicator;
+    this.tv1 = tv1;
+    this.tv2 = tv2;
+    this.tv3 = tv3;
+    this.viewPager = viewPager;
   }
 
   @Override
@@ -80,32 +91,44 @@ public final class ActivityTutorialBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView2;
-      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView2 == null) {
+      id = R.id.img;
+      ImageView img = ViewBindings.findChildViewById(rootView, id);
+      if (img == null) {
         break missingId;
       }
 
-      id = R.id.textView10;
-      TextView textView10 = ViewBindings.findChildViewById(rootView, id);
-      if (textView10 == null) {
+      id = R.id.spring_dots_indicator;
+      SpringDotsIndicator springDotsIndicator = ViewBindings.findChildViewById(rootView, id);
+      if (springDotsIndicator == null) {
         break missingId;
       }
 
-      id = R.id.textView6;
-      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
-      if (textView6 == null) {
+      id = R.id.tv1;
+      TextView tv1 = ViewBindings.findChildViewById(rootView, id);
+      if (tv1 == null) {
         break missingId;
       }
 
-      id = R.id.textView9;
-      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
-      if (textView9 == null) {
+      id = R.id.tv2;
+      TextView tv2 = ViewBindings.findChildViewById(rootView, id);
+      if (tv2 == null) {
         break missingId;
       }
 
-      return new ActivityTutorialBinding((ConstraintLayout) rootView, buttonGetstrt, imageView2,
-          textView10, textView6, textView9);
+      id = R.id.tv3;
+      TextView tv3 = ViewBindings.findChildViewById(rootView, id);
+      if (tv3 == null) {
+        break missingId;
+      }
+
+      id = R.id.viewPager;
+      ViewPager viewPager = ViewBindings.findChildViewById(rootView, id);
+      if (viewPager == null) {
+        break missingId;
+      }
+
+      return new ActivityTutorialBinding((ConstraintLayout) rootView, buttonGetstrt, img,
+          springDotsIndicator, tv1, tv2, tv3, viewPager);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

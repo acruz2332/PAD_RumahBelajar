@@ -1,34 +1,32 @@
 package com.pad1.padrumahbelajar.fragment;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
-
 import androidx.fragment.app.Fragment;
-import androidx.viewbinding.ViewBinding;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.pad1.padrumahbelajar.R;
-import com.pad1.padrumahbelajar.databinding.FragmentHome2Binding;
-import com.pad1.padrumahbelajar.materi.AddLabelMateriActivity;
+import com.pad1.padrumahbelajar.SharedPrefManager;
+import com.pad1.padrumahbelajar.databinding.FragmentHomeBinding;
 import com.pad1.padrumahbelajar.materi.DetailMateriActivity;
-
+import com.pad1.padrumahbelajar.materi.MateriActivity;
+import com.pad1.padrumahbelajar.materi.VideoActivity;
 
 public class HomeFragment extends Fragment {
 
-    private FragmentHome2Binding viewBinding;
-
-
-    FloatingActionButton fab, fabAddClass;
-    ImageView imgBack;
-    Animation fabOpen, fabClose, rotateForward, rotateBackward;
+    private FragmentHomeBinding viewBinding;
+    TextView tvNama;
+    SharedPrefManager sp;
+    FloatingActionButton fab;
     public static final String MESSAGE_EXTRA = "MESSAGE_KEY";
+    Animation fabOpen, fabClose, rotateForward, rotateBackward;
+
 
     public HomeFragment() {
 
@@ -50,80 +48,96 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        viewBinding = FragmentHome2Binding.inflate(inflater, container, false);
 
-        viewBinding.fab.setOnClickListener(new View.OnClickListener() {
+        viewBinding = FragmentHomeBinding.inflate(inflater, container, false);
+        sp = new SharedPrefManager(this.getContext());
+        viewBinding.tvNama.setText("Halo " + sp.getSpUsername());
+
+        viewBinding.cvMateri.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(), AddLabelMateriActivity.class));
+                startActivity(new Intent(getContext(), MateriActivity.class));
             }
         });
 
-        viewBinding.llBab1.setOnClickListener(new View.OnClickListener() {
+        viewBinding.tvSeeAll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                readMateriB1(view);
+                startActivity(new Intent(getContext(), MateriActivity.class));
             }
         });
 
-        viewBinding.llBab2.setOnClickListener(new View.OnClickListener() {
+        viewBinding.cvPR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                readMateriB2(view);
+                Toast.makeText(getContext(), "Fitur ini sedang dalam pengembangan", Toast.LENGTH_LONG).show();
             }
         });
+
+        viewBinding.cvPK.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getContext(), "Fitur ini sedang dalam pengembangan", Toast.LENGTH_LONG).show();
+            }
+        });
+
+        viewBinding.cvSejarah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(), VideoActivity.class);
+                String message = "sejarah";
+                intent.putExtra(MESSAGE_EXTRA, message);
+                startActivityForResult(intent, 1);
+            }
+        });
+
+        viewBinding.cvMatematika.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(), VideoActivity.class);
+                String message = "matematika";
+                intent.putExtra(MESSAGE_EXTRA, message);
+                startActivityForResult(intent, 1);
+            }
+        });
+
+        viewBinding.cvKimia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(), VideoActivity.class);
+                String message = "kimia";
+                intent.putExtra(MESSAGE_EXTRA, message);
+                startActivityForResult(intent, 1);
+            }
+        });
+
+        viewBinding.cvFisika.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(), VideoActivity.class);
+                String message = "fisika";
+                intent.putExtra(MESSAGE_EXTRA, message);
+                startActivityForResult(intent, 1);
+            }
+        });
+
+        viewBinding.cvAgama.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getContext(), VideoActivity.class);
+                String message = "agama";
+                intent.putExtra(MESSAGE_EXTRA, message);
+                startActivityForResult(intent, 1);
+            }
+        });
+
+
 
 
         return viewBinding.getRoot();
     }
 
-    public void readMateriB1(View view) {
-        Intent intent = new Intent(getContext(), DetailMateriActivity.class);
-        String message = "b1";
-        intent.putExtra(MESSAGE_EXTRA, message);
-        startActivityForResult(intent, 1);
-    }
 
-    public void readMateriB2(View view) {
-        Intent intent = new Intent(getContext(), DetailMateriActivity.class);
-        String message = "b2";
-        intent.putExtra(MESSAGE_EXTRA, message);
-        startActivityForResult(intent, 1);
-    }
 
-    public void readMateriB3(View view) {
-        Intent intent = new Intent(getContext(), DetailMateriActivity.class);
-        String message = "b3";
-        intent.putExtra(MESSAGE_EXTRA, message);
-        startActivityForResult(intent, 1);
-    }
-
-    public void readMateriB4(View view) {
-        Intent intent = new Intent(getContext(), DetailMateriActivity.class);
-        String message = "b4";
-        intent.putExtra(MESSAGE_EXTRA, message);
-        startActivityForResult(intent, 1);
-    }
-
-    public void readMateriB5(View view) {
-        Intent intent = new Intent(getContext(), DetailMateriActivity.class);
-        String message = "b5";
-        intent.putExtra(MESSAGE_EXTRA, message);
-        startActivityForResult(intent, 1);
-    }
-
-    public void readMateriB6(View view) {
-        Intent intent = new Intent(getContext(), DetailMateriActivity.class);
-        String message = "b6";
-        intent.putExtra(MESSAGE_EXTRA, message);
-        startActivityForResult(intent, 1);
-    }
-
-    public void readMateriB7(View view) {
-        Intent intent = new Intent(getContext(), DetailMateriActivity.class);
-        String message = "b7";
-        intent.putExtra(MESSAGE_EXTRA, message);
-        startActivityForResult(intent, 1);
-    }
 
 }

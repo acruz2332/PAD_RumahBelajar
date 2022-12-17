@@ -1,426 +1,462 @@
 [
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_detail_quiz.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_detail_quiz.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_imgtutor1.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\imgtutor1.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_border.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\border.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_logo_bab1.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\logo_bab1.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_main2.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_main2.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\font_libre_franklin_extralight.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\font\\libre_franklin_extralight.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\font_libre_franklin_extralight.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\font\\libre_franklin_extralight.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_arrow.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\arrow.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_materi.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_materi.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_fragment_home2.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\fragment_home2.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\font_poppins_medium.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\font\\poppins_medium.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_item_label_quiz.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\item_label_quiz.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_video.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_video.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_custom_button.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\custom_button.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_button_clear.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\button_clear.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_label_quiz.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_label_quiz.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_home_bg.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\home_bg.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_add_label_materi.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_add_label_materi.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_ic_home2.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\ic_home2.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_coba.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\coba.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_trash_icon.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\trash_icon.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_tutorial3.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_tutorial3.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_logo_bab7.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\logo_bab7.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_add_materi.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_add_materi.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\font_dm_sans.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\font\\dm_sans.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_button_clear.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\button_clear.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_ic_quiz.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\ic_quiz.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_add_questionstest.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\add_questionstest.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_imgtutor2.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\imgtutor2.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_bgbiru.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\bgbiru.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_arrow.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\arrow.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_buku.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\buku.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_bgbiru.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\bgbiru.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\font_poppins_bold.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\font\\poppins_bold.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\ic_person.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_custom_button.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\custom_button.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_border.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\border.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_ic_setting.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\ic_setting.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_splash_screen.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\anim_rotate_forward.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\anim\\rotate_forward.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_iconprofile.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\iconprofile.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\font_poppins_bold.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\font\\poppins_bold.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\anim_slide_out_bottom.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\anim\\slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_logo_bab7.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\logo_bab7.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\font_libre_franklin_bold.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\font\\libre_franklin_bold.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_item_label_quiz.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\item_label_quiz.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_ic_home2.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\ic_home2.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_logo_bab6.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\logo_bab6.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_tutorial2.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_tutorial2.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_bg_layout_white.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\bg_layout_white.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_fragment_class.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\fragment_class.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_logo_bab5.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\logo_bab5.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\anim_slide_out_bottom.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\anim\\slide_out_bottom.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_custom.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\custom.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_logo2.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\logo2.png"
+        "merged": "com.pad1.padrumahbelajar.app-merged_res-49:/layout_activity_video.xml.flat",
+        "source": "com.pad1.padrumahbelajar.app-main-51:/layout/activity_video.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\menu_bottom_nav_menu.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\menu\\bottom_nav_menu.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_rectangle.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\rectangle.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_result.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_result.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_setting.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\setting.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_icon_trash_neon.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\icon_trash_neon.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_add_label.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_add_label.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_header_bg.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\header_bg.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_ic_baseline_restore_from_trash_24.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\ic_baseline_restore_from_trash_24.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_item_question.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\item_question.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\ic_dashboard_black_24dp.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_imgtutor.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\imgtutor.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\anim_tab_open.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\anim\\tab_open.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_quiz2.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_quiz2.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_imgtutor3.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\imgtutor3.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\anim_rotate_forward.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\anim\\rotate_forward.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\ic_add.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\anim_rotate_backward.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\anim\\rotate_backward.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_logo_bab2.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\logo_bab2.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_tutorial.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_tutorial.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_piala.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\piala.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_logo_bab2.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\logo_bab2.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_ic_class.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\ic_class.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_ic_person.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\ic_person.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\anim_tab_open.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\anim\\tab_open.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_fragment_quiz.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\fragment_quiz.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\anim_slide_in_bottom.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\anim\\slide_in_bottom.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\navigation\\nav_graph.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_fisika.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\fisika.png"
     },
     {
-        "merged": "com.pad1.padrumahbelajar.app-merged_res-47:/layout_item_history.xml.flat",
-        "source": "com.pad1.padrumahbelajar.app-main-49:/layout/item_history.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_kuliah.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\kuliah.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_ic_quiz2.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\ic_quiz2.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_add_question.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_add_question.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_bg_layout_white.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\bg_layout_white.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_icon404.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\icon404.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_worldwide.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\worldwide.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_gradient.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\gradient.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_sign_up.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_sign_up.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_book.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\book.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_icon404.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\icon404.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_detail_quiz.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_detail_quiz.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-pngs-42:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\raw_fishvideo.mp4.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\raw\\fishvideo.mp4"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_iconlogin.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\iconlogin.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_tutorial.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_tutorial.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_icon_trash_neon.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\icon_trash_neon.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_agama.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\agama.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_fragment_quiz.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\fragment_quiz.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_logo_bab3.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\logo_bab3.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_logo_bab5.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\logo_bab5.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_detail_materi.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_detail_materi.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_item_history.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\item_history.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_header_bg.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\header_bg.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_robo.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\robo.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_rectangle.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\rectangle.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_buku.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\buku.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_ic_setting.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\ic_setting.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_ic_baseline_restore_from_trash_24.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\ic_baseline_restore_from_trash_24.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_iconprofile.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\iconprofile.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_item_materi.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\item_materi.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_label_quiz.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_label_quiz.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_add_label.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_add_label.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\font_libre_franklin.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\font\\libre_franklin.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_welcome.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_welcome.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_quiz.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\quiz.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\anim_tab_close.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\anim\\tab_close.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-pngs-44:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\font_poppins_medium.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\font\\poppins_medium.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\ic_notification.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\font_poppins_light.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\font\\poppins_light.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_add_question.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_add_question.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_imgtutor.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\imgtutor.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_add_materi.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_add_materi.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_setting.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\setting.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_gradient.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\gradient.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_home_bg.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\home_bg.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_piala.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\piala.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\navigation\\mobile_navigation.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_result.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_result.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_history.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_history.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_item_question.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\item_question.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\fragment_profile.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_logo_bab4.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\logo_bab4.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_fragment_class.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\fragment_class.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_item_kelas.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\item_kelas.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\font_libre_franklin.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\font\\libre_franklin.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\font_dm_sans_medium.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\font\\dm_sans_medium.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_ic_quiz.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\ic_quiz.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\anim_slide_in_bottom.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\anim\\slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\font_dm_sans_medium.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\font\\dm_sans_medium.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_button_danger.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\button_danger.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\anim_tab_close.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\anim\\tab_close.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_item_kelas.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\item_kelas.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_logo_bab3.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\logo_bab3.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_logo2.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\logo2.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_quiz2.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_quiz2.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_trash_icon.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\trash_icon.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_kimia.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\kimia.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_custom.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\custom.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_item_materi.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\item_materi.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_ic_quiz2.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\ic_quiz2.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_add_label_materi.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_add_label_materi.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_ic_class.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\ic_class.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_history.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\history.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_logo_bab6.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\logo_bab6.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\font_poppins_light.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\font\\poppins_light.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable_button_danger.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable\\button_danger.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_ic_notification.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\ic_notification.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable-v24_iconlogin.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable-v24\\iconlogin.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\drawable_ic_add.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\drawable\\ic_add.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-47:\\layout_activity_detail_materi.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-49:\\layout\\activity_detail_materi.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_logo_bab4.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\logo_bab4.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\font_libre_franklin_bold.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\font\\libre_franklin_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\drawable-v24_logo_bab1.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\drawable-v24\\logo_bab1.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\font_dm_sans.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\font\\dm_sans.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_item_history.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\item_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\anim_rotate_backward.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\anim\\rotate_backward.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-merged_res-49:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_history.xml"
     }
 ]

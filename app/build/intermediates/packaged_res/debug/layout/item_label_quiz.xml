@@ -40,7 +40,7 @@
                 android:textColor="@color/biru_tua2"
                 android:textSize="15dp" />
 
-            <LinearLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -51,30 +51,26 @@
                     android:id="@+id/btnHapusQuiz"
                     android:layout_width="100dp"
                     android:layout_height="40dp"
-                    android:text="Hapus"
                     android:layout_gravity="end"
-                    android:layout_marginStart="160dp"
+                    android:layout_marginEnd="16dp"
                     android:background="@drawable/button_danger"
-                    android:textColor="#FAFAFA"
                     android:gravity="center"
-                    />
+                    android:text="Hapus"
+                    android:textColor="#FAFAFA"
+                    app:layout_constraintEnd_toEndOf="parent" />
 
                 <Button
                     android:id="@+id/btnHistory"
                     android:layout_width="100dp"
                     android:layout_height="40dp"
-                    android:text="History"
-                    android:layout_gravity="end"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="16dp"
                     android:background="@drawable/button_clear"
-                    android:textColor="#FAFAFA"
                     android:gravity="center"
-                    />
+                    android:text="History"
+                    android:textColor="#FAFAFA"
+                    app:layout_constraintEnd_toEndOf="parent" />
 
-            </LinearLayout>
-
-
-
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
 
         </LinearLayout>

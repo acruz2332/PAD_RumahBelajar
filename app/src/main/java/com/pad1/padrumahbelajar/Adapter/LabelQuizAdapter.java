@@ -1,7 +1,5 @@
 package com.pad1.padrumahbelajar.Adapter;
 
-import static android.content.ContentValues.TAG;
-
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -16,7 +14,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.pad1.padrumahbelajar.R;
@@ -25,9 +22,6 @@ import com.pad1.padrumahbelajar.api.UtilsApi;
 import com.pad1.padrumahbelajar.model.QuizData;
 import com.pad1.padrumahbelajar.quiz.DetailQuizActivity;
 import com.pad1.padrumahbelajar.quiz.HistoryActivity;
-import com.pad1.padrumahbelajar.quiz.HistoryData;
-import com.pad1.padrumahbelajar.quiz.HistoryResponse;
-import com.pad1.padrumahbelajar.quiz.LabelQuizActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -126,14 +120,41 @@ public class LabelQuizAdapter extends RecyclerView.Adapter<LabelQuizAdapter.List
 
         holder.itemView.setOnClickListener(v -> {
 
-            Intent intent = new Intent(v.getContext(), DetailQuizActivity.class);
-            Bundle bundle = new Bundle();
+            if (this.token.length() == 5){
+                AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                builder.setPositiveButton("Iya", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Intent intent = new Intent(v.getContext(), DetailQuizActivity.class);
+                        Bundle bundle = new Bundle();
 
-            bundle.putString("mataPelajaran", resultList.get(position).getMataPelajaran());
-            bundle.putString("namaQuiz", resultList.get(position).getNamaQuiz());
-            bundle.putString("token", resultList.get(position).getToken());
-            intent.putExtras(bundle);
-            v.getContext().startActivity(intent);
+                        bundle.putString("mataPelajaran", resultList.get(position).getMataPelajaran());
+                        bundle.putString("namaQuiz", resultList.get(position).getNamaQuiz());
+                        bundle.putString("token", resultList.get(position).getToken());
+                        intent.putExtras(bundle);
+                        v.getContext().startActivity(intent);
+                    }
+                }).setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                }).setMessage("Apakah Yakin Ingin Mengerjakan Kuis?");
+                builder.show();
+            } else {
+                Intent intent = new Intent(v.getContext(), DetailQuizActivity.class);
+                Bundle bundle = new Bundle();
+
+                bundle.putString("mataPelajaran", resultList.get(position).getMataPelajaran());
+                bundle.putString("namaQuiz", resultList.get(position).getNamaQuiz());
+                bundle.putString("token", resultList.get(position).getToken());
+                intent.putExtras(bundle);
+                v.getContext().startActivity(intent);
+            }
+
+
+
+
 
 //            Toast.makeText(holder.itemView.getContext(), "" + resultList.get(holder.getAdapterPosition()).getMataPelajaran(), Toast.LENGTH_SHORT).show();
         });
@@ -166,4 +187,6 @@ public class LabelQuizAdapter extends RecyclerView.Adapter<LabelQuizAdapter.List
 //            recyclerView.setLayoutManager(new LinearLayoutManager(context.getApplicationContext()));
         }
     }
+
+
 }

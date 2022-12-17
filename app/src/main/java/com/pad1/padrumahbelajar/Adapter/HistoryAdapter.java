@@ -4,17 +4,14 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.pad1.padrumahbelajar.R;
-import com.pad1.padrumahbelajar.model.QuizData;
-import com.pad1.padrumahbelajar.quiz.HistoryData;
+import com.pad1.padrumahbelajar.model.HistoryData;
 
 import java.util.ArrayList;
 
@@ -44,9 +41,6 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.ListView
 
     @Override
     public void onBindViewHolder(@NonNull ListViewHolder holder, int position) {
-
-        Toast.makeText(context, token, Toast.LENGTH_SHORT).show();
-        Toast.makeText(context, resultList.get(0).getTokenMurid(), Toast.LENGTH_SHORT).show();
 
         holder.tvNama.setText(resultList.get(position).getNama().toString());
         holder.tvBenar.setText("Benar: " + resultList.get(position).getBenar().toString());

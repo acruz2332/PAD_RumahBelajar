@@ -23,7 +23,7 @@ public class DetailMateriActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail_materi);
 
         Intent intent = getIntent();
-        String message = intent.getStringExtra(HomeFragment.MESSAGE_EXTRA);
+        String message = intent.getStringExtra(MateriActivity.MESSAGE_EXTRA);
 
         if(Objects.equals(message, "b1")){
             pdf_view = findViewById(R.id.pdfView);

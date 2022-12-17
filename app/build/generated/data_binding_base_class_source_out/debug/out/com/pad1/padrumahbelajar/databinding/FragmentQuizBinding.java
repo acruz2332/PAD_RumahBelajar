@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -31,6 +32,9 @@ public final class FragmentQuizBinding implements ViewBinding {
   public final RecyclerView recyclerViewQuiz;
 
   @NonNull
+  public final SwipeRefreshLayout srl;
+
+  @NonNull
   public final TextView textView;
 
   @NonNull
@@ -38,11 +42,12 @@ public final class FragmentQuizBinding implements ViewBinding {
 
   private FragmentQuizBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout cons,
       @NonNull FloatingActionButton fab, @NonNull RecyclerView recyclerViewQuiz,
-      @NonNull TextView textView, @NonNull TextView textView4) {
+      @NonNull SwipeRefreshLayout srl, @NonNull TextView textView, @NonNull TextView textView4) {
     this.rootView = rootView;
     this.cons = cons;
     this.fab = fab;
     this.recyclerViewQuiz = recyclerViewQuiz;
+    this.srl = srl;
     this.textView = textView;
     this.textView4 = textView4;
   }
@@ -92,6 +97,12 @@ public final class FragmentQuizBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.srl;
+      SwipeRefreshLayout srl = ViewBindings.findChildViewById(rootView, id);
+      if (srl == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
@@ -104,7 +115,7 @@ public final class FragmentQuizBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentQuizBinding((ConstraintLayout) rootView, cons, fab, recyclerViewQuiz,
+      return new FragmentQuizBinding((ConstraintLayout) rootView, cons, fab, recyclerViewQuiz, srl,
           textView, textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);

@@ -20,12 +20,11 @@ import com.pad1.padrumahbelajar.login.LoginActivity;
 
 public class ProfileFragment extends Fragment {
 
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+
     Button btnLogout;
     TextView token, username;
     SharedPrefManager sp;
-//    SharedPrefManager sharedPref = SharedPrefManager.getInstance();
+
 
     public ProfileFragment() {
 
@@ -34,8 +33,7 @@ public class ProfileFragment extends Fragment {
     public static ProfileFragment newInstance(String param1, String param2) {
         ProfileFragment fragment = new ProfileFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+
         fragment.setArguments(args);
         return fragment;
     }
@@ -55,8 +53,11 @@ public class ProfileFragment extends Fragment {
         sp = new SharedPrefManager(this.getContext());
         token = view.findViewById(R.id.tvtoken);
         username = view.findViewById(R.id.tvusername);
+
+
         token.setText(sp.getSpToken());
         username.setText(sp.getSpUsername());
+
 
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,14 +68,9 @@ public class ProfileFragment extends Fragment {
                 startActivity(intent);
                 activity.finish();
                 System.exit(0);
-
             }
         });
         return view;
     }
 }
 
-//                SharedPreferences sp = activity.getSharedPreferences("spRumahBelajar", Context.MODE_PRIVATE);
-//                SharedPreferences.Editor editor = sp.edit();
-//                editor.clear();
-//                editor.apply();

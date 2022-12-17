@@ -3,9 +3,7 @@ package com.pad1.padrumahbelajar.api;
 import com.pad1.padrumahbelajar.model.KelasResponse;
 import com.pad1.padrumahbelajar.model.QuestionResponse;
 import com.pad1.padrumahbelajar.model.QuizResponse;
-import com.pad1.padrumahbelajar.quiz.HistoryResponse;
-
-import java.util.ArrayList;
+import com.pad1.padrumahbelajar.model.HistoryResponse;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;

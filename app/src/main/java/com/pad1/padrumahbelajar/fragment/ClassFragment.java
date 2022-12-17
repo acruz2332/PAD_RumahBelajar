@@ -18,6 +18,7 @@ import android.widget.Button;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.pad1.padrumahbelajar.R;
+import com.pad1.padrumahbelajar.SharedPrefManager;
 import com.pad1.padrumahbelajar.api.BaseApiService;
 import com.pad1.padrumahbelajar.api.UtilsApi;
 import com.pad1.padrumahbelajar.databinding.FragmentClassBinding;
@@ -43,6 +44,7 @@ public class ClassFragment extends Fragment {
     BaseApiService mApiService;
     RecyclerView recyclerView;
     private KelasAdapter adapter;
+    SharedPrefManager sp;
 
     public ClassFragment() {
         // Required empty public constructor
@@ -59,6 +61,7 @@ public class ClassFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        sp = new SharedPrefManager(this.getContext());
 
 
     }
@@ -71,6 +74,10 @@ public class ClassFragment extends Fragment {
         fab = view.findViewById(R.id.fab);
         recyclerView = view.findViewById(R.id.rv_kelas);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
+        if (sp.getSpToken().length() == 5){
+            fab.setVisibility(View.GONE);
+        }
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

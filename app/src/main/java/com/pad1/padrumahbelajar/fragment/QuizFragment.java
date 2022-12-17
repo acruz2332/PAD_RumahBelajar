@@ -10,6 +10,7 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.preference.PreferenceManager;
 import android.util.Log;
@@ -47,9 +48,8 @@ public class QuizFragment extends Fragment {
     BaseApiService mApiService;
     String token;
     SharedPrefManager sp;
-    SharedPreferences sp2;
     boolean isOpen = false;
-    ActivityMainBinding binding;
+    SwipeRefreshLayout srl;
 
     public QuizFragment() {
 
@@ -84,11 +84,10 @@ public class QuizFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         mApiService = UtilsApi.getAPIService();
-        // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_quiz, container, false);
         fab = view.findViewById(R.id.fab);
         recyclerView = view.findViewById(R.id.recyclerViewQuiz);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        srl = view.findViewById(R.id.srl);
 
         if (sp.getSpToken().length() == 5){
             fab.setVisibility(View.GONE);
@@ -99,7 +98,6 @@ public class QuizFragment extends Fragment {
             public void onClick(View v) {
                 Intent intent = new Intent (getContext(), AddLabelQuiz.class);
                 startActivity(intent);
-//                startActivity(new Intent(QuizFragment.this, AddQuestionActivity.class));
             }
         });
         mApiService.quizRequest().enqueue(new Callback<QuizResponse>() {
@@ -112,6 +110,9 @@ public class QuizFragment extends Fragment {
                     try {
                         adapter = new LabelQuizAdapter(getContext(), quizData, sp.getSpToken());
                         recyclerView.setAdapter(adapter);
+                        LinearLayoutManager llm = new LinearLayoutManager(getContext());
+                        llm.setOrientation(LinearLayoutManager.VERTICAL);
+                        recyclerView.setLayoutManager(llm);
                     } catch (Exception err) {
                         Log.e(TAG, "Error INIII");
                         err.printStackTrace();
@@ -124,6 +125,36 @@ public class QuizFragment extends Fragment {
                 Log.e("debug", "onFailure: ERROR > " + t.toString());
             }
         });
+
+        srl.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                mApiService.quizRequest().enqueue(new Callback<QuizResponse>() {
+                    @Override
+                    public void onResponse(Call<QuizResponse> call, Response<QuizResponse> response) {
+                        if (response.isSuccessful()) {
+                            QuizResponse quizResponse = response.body();
+                            ArrayList<QuizData> quizData = quizResponse.getData();
+                            Log.e("getSuccess", "onFailure: ERROR > " + quizResponse.getStatus().toString());
+                            try {
+                                adapter = new LabelQuizAdapter(getContext(), quizData, sp.getSpToken());
+                                recyclerView.setAdapter(adapter);
+                            } catch (Exception err) {
+                                Log.e(TAG, "Error INIII");
+                                err.printStackTrace();
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<QuizResponse> call, Throwable t) {
+                        Log.e("debug", "onFailure: ERROR > " + t.toString());
+                    }
+                });
+            }
+        });
+
+
 
         return view;
     }

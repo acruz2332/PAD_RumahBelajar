@@ -25,6 +25,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.PADRumahBelajar" >
         <activity
+            android:name="com.pad1.padrumahbelajar.materi.VideoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.pad1.padrumahbelajar.materi.MateriActivity"
+            android:exported="false" />
+        <activity
             android:name="com.pad1.padrumahbelajar.quiz.HistoryActivity"
             android:exported="false" />
         <activity
@@ -56,15 +62,6 @@
             android:exported="false" />
         <activity
             android:name="com.pad1.padrumahbelajar.quiz.QuizActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity3"
-            android:exported="false"
-            android:label="@string/title_activity_tutorial3"
-            android:parentActivityName="com.pad1.padrumahbelajar.login.LoginActivity"
-            android:theme="@style/Theme.PADRumahBelajar.NoActionBar" />
-        <activity
-            android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity2"
             android:exported="false" />
         <activity
             android:name="com.pad1.padrumahbelajar.tutorial.TutorialActivity"

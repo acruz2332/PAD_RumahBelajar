@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgbiru"
+    android:background="@drawable/header_bg"
     tools:context=".materi.DetailMateriActivity">
 
     <TextView
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv1"
-        tools:text="Selamat Datang dan Selamat Belajar" />
+        android:text="Selamat Datang dan Selamat Belajar" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"

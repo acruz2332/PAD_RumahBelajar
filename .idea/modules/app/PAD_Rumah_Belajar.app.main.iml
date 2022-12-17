@@ -122,5 +122,7 @@
     <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.tbuonomo:dotsindicator:4.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0@aar" level="project" />
   </component>
 </module>
