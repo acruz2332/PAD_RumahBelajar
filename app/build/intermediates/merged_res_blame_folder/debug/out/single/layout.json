@@ -24,12 +24,12 @@
         "source": "C:\\Users\\HERJATI AJI\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_add_question.xml"
     },
     {
-        "merged": "C:\\Users\\HERJATI AJI\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-48:\\layout\\item_history.xml",
-        "source": "C:\\Users\\HERJATI AJI\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\item_history.xml"
+        "merged": "com.pad1.padrumahbelajar.app-mergeDebugResources-48:/layout/activity_tutorial.xml",
+        "source": "com.pad1.padrumahbelajar.app-main-51:/layout/activity_tutorial.xml"
     },
     {
-        "merged": "com.pad1.padrumahbelajar.app-mergeDebugResources-48:/layout/item_question.xml",
-        "source": "com.pad1.padrumahbelajar.app-main-51:/layout/item_question.xml"
+        "merged": "C:\\Users\\HERJATI AJI\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-48:\\layout\\item_history.xml",
+        "source": "C:\\Users\\HERJATI AJI\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\item_history.xml"
     },
     {
         "merged": "C:\\Users\\HERJATI AJI\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-48:\\layout\\activity_tutorial.xml",

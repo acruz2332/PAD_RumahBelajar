@@ -61,12 +61,12 @@ public class VideoActivity extends AppCompatActivity {
                 } else if (Objects.equals(message, "kimia")){
                     String videoId = "WAE3-XPclE4";
                     youTubePlayer.loadVideo(videoId, 0);
-                    tv1.setText("Fisika");
+                    tv1.setText("Kimia");
                     tv2.setText(R.string.materi_kimia);
                 } else if (Objects.equals(message, "fisika")){
                     String videoId = "4HrweW4IqJc";
                     youTubePlayer.loadVideo(videoId, 0);
-                    tv1.setText("Kimia");
+                    tv1.setText("Fisika");
                     tv2.setText(R.string.materi_fisika);
                 } else if (Objects.equals(message, "agama")){
                     String videoId = "SQtOHjc8QdA";
