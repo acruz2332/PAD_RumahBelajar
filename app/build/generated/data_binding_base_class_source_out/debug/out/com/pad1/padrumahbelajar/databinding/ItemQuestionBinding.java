@@ -53,10 +53,14 @@ public final class ItemQuestionBinding implements ViewBinding {
   @NonNull
   public final TextView tvQuestion;
 
+  @NonNull
+  public final View view3;
+
   private ItemQuestionBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnClear,
       @NonNull Button btnHapus, @NonNull CardView cv, @NonNull RadioButton rbA,
       @NonNull RadioButton rbB, @NonNull RadioButton rbC, @NonNull RadioButton rbD,
-      @NonNull RadioButton rbE, @NonNull RadioGroup rg, @NonNull TextView tvQuestion) {
+      @NonNull RadioButton rbE, @NonNull RadioGroup rg, @NonNull TextView tvQuestion,
+      @NonNull View view3) {
     this.rootView = rootView;
     this.btnClear = btnClear;
     this.btnHapus = btnHapus;
@@ -68,6 +72,7 @@ public final class ItemQuestionBinding implements ViewBinding {
     this.rbE = rbE;
     this.rg = rg;
     this.tvQuestion = tvQuestion;
+    this.view3 = view3;
   }
 
   @Override
@@ -157,8 +162,14 @@ public final class ItemQuestionBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.view3;
+      View view3 = ViewBindings.findChildViewById(rootView, id);
+      if (view3 == null) {
+        break missingId;
+      }
+
       return new ItemQuestionBinding((ConstraintLayout) rootView, btnClear, btnHapus, cv, rbA, rbB,
-          rbC, rbD, rbE, rg, tvQuestion);
+          rbC, rbD, rbE, rg, tvQuestion, view3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

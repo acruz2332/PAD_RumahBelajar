@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/poppins_bold"
-        android:text="Halo Bang Udin"
+        android:text="Halaman Materi"
         android:textColor="#FAFAFA"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F9F9F9"
     tools:context=".quiz.AddLabelQuiz">
 
     <ImageView
@@ -23,86 +24,95 @@
         android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Tambah Quiz"
         android:textColor="#1782BC"
-        android:textSize="28sp"
-        android:textStyle="bold"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/garis"
+        android:layout_width="210dp"
+        android:layout_height="2dp"
+        android:background="#0077B6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
 
     <TextView
         android:id="@+id/tv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="156dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="200dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Nama Pelajaran"
         android:textColor="#1782BC"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
 
-    <com.google.android.material.textfield.TextInputLayout
+
+    <EditText
         android:id="@+id/et1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
+        android:background="@drawable/custom"
+        android:fontFamily="@font/libre_franklin"
+        android:hint="Masukkan Nama Pelajaran"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:singleLine="true"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv2">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/tiet1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Masukkan Nama Pelajaran"
-            android:imeOptions="actionNext"
-            android:inputType="text"
-            android:singleLine="true" />
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
 
     <TextView
         android:id="@+id/tv3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="240dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Nama Quiz"
         android:textColor="#1782BC"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et1" />
 
-    <com.google.android.material.textfield.TextInputLayout
+    <EditText
         android:id="@+id/et2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
+        android:hint="Masukkan Nama Kuis"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:textSize="14sp"
+        android:paddingStart="15dp"
+        android:background="@drawable/custom"
+        android:singleLine="true"
+        android:fontFamily="@font/libre_franklin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv3">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/tiet2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Masukkan Nama Quiz"
-            android:imeOptions="actionNext"
-            android:inputType="text"
-            android:singleLine="true" />
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintTop_toBottomOf="@+id/tv3"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -113,6 +123,7 @@
         android:textColor="@color/white"
         android:background="@drawable/custom_button"
         android:id="@+id/btn_tambah"
+        android:fontFamily="@font/poppins_bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

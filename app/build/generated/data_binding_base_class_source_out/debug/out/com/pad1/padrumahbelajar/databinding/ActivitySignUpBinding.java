@@ -36,7 +36,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
   public final EditText editTextName;
 
   @NonNull
-  public final EditText editTextPassword;
+  public final EditText editTextPasswordRegister;
 
   @NonNull
   public final EditText editTextUsername;
@@ -67,7 +67,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
 
   private ActivitySignUpBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonRegister,
       @NonNull EditText editTextConfirm, @NonNull EditText editTextEmail,
-      @NonNull EditText editTextName, @NonNull EditText editTextPassword,
+      @NonNull EditText editTextName, @NonNull EditText editTextPasswordRegister,
       @NonNull EditText editTextUsername, @NonNull RadioButton radioButton,
       @NonNull RadioButton radioButton2, @NonNull RadioGroup radioGroupRole,
       @NonNull TextView textView13, @NonNull TextView textView14, @NonNull TextView textView2,
@@ -77,7 +77,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
     this.editTextConfirm = editTextConfirm;
     this.editTextEmail = editTextEmail;
     this.editTextName = editTextName;
-    this.editTextPassword = editTextPassword;
+    this.editTextPasswordRegister = editTextPasswordRegister;
     this.editTextUsername = editTextUsername;
     this.radioButton = radioButton;
     this.radioButton2 = radioButton2;
@@ -140,9 +140,9 @@ public final class ActivitySignUpBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextPassword;
-      EditText editTextPassword = ViewBindings.findChildViewById(rootView, id);
-      if (editTextPassword == null) {
+      id = R.id.editTextPasswordRegister;
+      EditText editTextPasswordRegister = ViewBindings.findChildViewById(rootView, id);
+      if (editTextPasswordRegister == null) {
         break missingId;
       }
 
@@ -201,7 +201,7 @@ public final class ActivitySignUpBinding implements ViewBinding {
       }
 
       return new ActivitySignUpBinding((ConstraintLayout) rootView, buttonRegister, editTextConfirm,
-          editTextEmail, editTextName, editTextPassword, editTextUsername, radioButton,
+          editTextEmail, editTextName, editTextPasswordRegister, editTextUsername, radioButton,
           radioButton2, radioGroupRole, textView13, textView14, textView2, textView7,
           textViewlogin);
     }

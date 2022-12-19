@@ -2,7 +2,7 @@ package com.pad1.padrumahbelajar.quiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -30,8 +30,8 @@ public class AddLabelQuiz extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_label);
-        namaMapel = findViewById(R.id.tiet1);
-        namaQuiz = findViewById(R.id.tiet2);
+        namaMapel = findViewById(R.id.et1);
+        namaQuiz = findViewById(R.id.et2);
         tambah = findViewById(R.id.btn_tambah);
         mApiService = UtilsApi.getAPIService();
         arrow = findViewById(R.id.imgBack);

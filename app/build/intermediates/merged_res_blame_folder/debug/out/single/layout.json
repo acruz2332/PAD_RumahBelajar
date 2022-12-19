@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.pad1.padrumahbelajar.app-mergeDebugResources-48:/layout/activity_result.xml",
+        "source": "com.pad1.padrumahbelajar.app-main-51:/layout/activity_result.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-48:\\layout\\fragment_home.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\fragment_home.xml"
     },
@@ -24,16 +28,16 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_label_quiz.xml"
     },
     {
-        "merged": "com.pad1.padrumahbelajar.app-mergeDebugResources-48:/layout/activity_video.xml",
-        "source": "com.pad1.padrumahbelajar.app-main-51:/layout/activity_video.xml"
-    },
-    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-48:\\layout\\activity_tutorial.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_tutorial.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-48:\\layout\\activity_add_label_materi.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_add_label_materi.xml"
+    },
+    {
+        "merged": "com.pad1.padrumahbelajar.app-mergeDebugResources-48:/layout/activity_detail_materi.xml",
+        "source": "com.pad1.padrumahbelajar.app-main-51:/layout/activity_detail_materi.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-48:\\layout\\fragment_profile.xml",
@@ -68,12 +72,12 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_materi.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-48:\\layout\\activity_result.xml",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_result.xml"
-    },
-    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-48:\\layout\\activity_add_question.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_add_question.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-48:\\layout\\activity_result.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-main-51:\\layout\\activity_result.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.3.3\\com.pad1.padrumahbelajar.app-mergeDebugResources-48:\\layout\\activity_main.xml",

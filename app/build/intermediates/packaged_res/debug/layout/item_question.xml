@@ -9,7 +9,7 @@
         android:id="@+id/cv"
         style="@style/cardViewStyle"
         android:layout_width="350dp"
-        android:layout_height="338dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
@@ -22,7 +22,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="320dp">
+            android:layout_height="wrap_content">
 
 
             <TextView
@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
-
+                android:fontFamily="@font/poppins_medium"
                 android:layout_marginEnd="8dp"
                 android:text="1. Apakah yang dimaksud dengan python? apakah anda tahu python itu apa? jelaskanlah arti dari python tersebut? ini soal apa ya?"
                 android:textColor="#252525"
@@ -39,6 +39,16 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="320dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#D9D9D9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvQuestion" />
 
             <RadioGroup
                 android:id="@+id/rg"
@@ -49,7 +59,7 @@
 
                 <RadioButton
                     android:id="@+id/rbA"
-
+                    android:fontFamily="@font/poppins_light"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Jawaban A" />
@@ -58,55 +68,64 @@
                     android:id="@+id/rbB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_light"
                     android:text="Jawaban B" />
 
                 <RadioButton
                     android:id="@+id/rbC"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_light"
                     android:text="Jawaban C" />
 
                 <RadioButton
                     android:id="@+id/rbD"
+                    android:fontFamily="@font/poppins_light"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Jawaban D" />
 
                 <RadioButton
                     android:id="@+id/rbE"
+                    android:fontFamily="@font/poppins_light"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Jawaban E" />
 
-<!--                <ImageView-->
-<!--                    android:layout_width="52dp"-->
-<!--                    android:layout_height="62dp"-->
-<!--                    android:layout_marginBottom="" -->
-<!--                    android:src="@drawable/icon_trash_neon" />-->
-
-                <Button
-                    android:id="@+id/btnHapus"
-                    android:layout_width="100dp"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_danger"
-                    android:backgroundTint="#FF5A79"
-                    android:text="Hapus Soal"
-                    android:textColor="#FAFAFA" />
+                    android:layout_margin="10dp"
+                    >
+
+                    <Button
+                        android:id="@+id/btnHapus"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:background="@drawable/button_danger"
+                        android:backgroundTint="#FF5A79"
+                        android:text="Hapus"
+                        android:textColor="#FAFAFA"
+                        app:layout_constraintBottom_toBottomOf="@+id/btnClear"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/btnClear" />
+
+                    <Button
+                        android:id="@+id/btnClear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:background="@drawable/button_clear"
+                        android:text="Clear"
+                        android:textColor="#FAFAFA"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
             </RadioGroup>
-
-            <Button
-                android:id="@+id/btnClear"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:background="@drawable/button_clear"
-                android:text="Clear"
-                android:textColor="#FAFAFA"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
-
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

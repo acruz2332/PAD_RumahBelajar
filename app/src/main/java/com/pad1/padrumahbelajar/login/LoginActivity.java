@@ -1,11 +1,15 @@
 package com.pad1.padrumahbelajar.login;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -19,15 +23,12 @@ import com.pad1.padrumahbelajar.fragment.MainActivity;
 import com.pad1.padrumahbelajar.R;
 import com.pad1.padrumahbelajar.SharedPrefManager;
 import com.pad1.padrumahbelajar.api.UtilsApi;
-import com.pad1.padrumahbelajar.model.KelasData;
-import com.pad1.padrumahbelajar.model.KelasResponse;
 import com.pad1.padrumahbelajar.tutorial.TutorialActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;
@@ -35,19 +36,15 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class LoginActivity extends AppCompatActivity {
-    public boolean isLogin;
     EditText editTextUsrnm;
-    EditText editTextPw;
-    Context mContext;
+    EditText editTextPassword;
     BaseApiService mApiService;
-    ProgressDialog loading;
     TextView textViewSignup;
     TextView textViewLogin;
     public static SharedPrefManager sharedPrefManager;
+    boolean passwordVisible;
 
-
-
-
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
         mApiService = UtilsApi.getAPIService();
         textViewLogin = findViewById(R.id.textViewlgn);
 
-        editTextPw = findViewById(R.id.editTextPw);
+        editTextPassword = findViewById(R.id.editTextPw);
         editTextUsrnm = findViewById(R.id.editTextUsrnm);
         textViewSignup = findViewById(R.id.textViewSignup);
         sharedPrefManager = new SharedPrefManager(this);
@@ -70,37 +67,47 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        editTextPassword.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                final int Right = 2;
+                if(event.getAction()== MotionEvent.ACTION_UP){
+                    if(event.getRawX()>=editTextPassword.getRight()-editTextPassword.getCompoundDrawables()[Right].getBounds().width()){
+                        int selection = editTextPassword.getSelectionEnd();
+                        if(passwordVisible ){
+                            editTextPassword.setCompoundDrawablesRelativeWithIntrinsicBounds(0,0,R.drawable.ic_baseline_visibility_off_24,0);
+                            editTextPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                            passwordVisible = false;
 
-
-
-
-
+                        }else{
+                            editTextPassword.setCompoundDrawablesRelativeWithIntrinsicBounds(0,0,R.drawable.ic_baseline_visibility_24,0);
+                            editTextPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                            passwordVisible = true;
+                        }
+                        editTextPassword.setSelection(selection);
+                        return true;
+                    }
+                }
+                return false;
+            }
+        });
 
         if (sharedPrefManager.getSPSudahLogin()){
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
             finish();
         }
 
-
-
-
-
     }
-
-
-
-
     public void loginBtn(View view) {
         requestLogin();
     }
 
     private void requestLogin() {
-        mApiService.loginRequest(editTextUsrnm.getText().toString(), editTextPw.getText().toString())
+        mApiService.loginRequest(editTextUsrnm.getText().toString(), editTextPassword.getText().toString())
                 .enqueue(new Callback<ResponseBody>() {
                     @Override
                     public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                         if (response.isSuccessful()) {
-
                             try {
                                 JSONObject jsonRESULTS = new JSONObject(response.body().string());
                                 if (jsonRESULTS.getString("status").equals("success")) {
@@ -142,8 +149,6 @@ public class LoginActivity extends AppCompatActivity {
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
-                        } else {
-
                         }
                     }
 

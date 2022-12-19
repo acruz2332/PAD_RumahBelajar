@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login.LoginActivity"
-    android:background="@color/cardview_light_background">
+    android:background="@color/cardview_light_background"
+    tools:context=".login.LoginActivity">
 
 
     <TextView
@@ -13,8 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Login"
-        android:fontFamily="@font/poppins_medium"
         android:textColor="@color/biru_tua2"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -37,15 +37,16 @@
     <EditText
         android:id="@+id/editTextUsrnm"
         android:layout_width="311dp"
-        android:textColor="@color/biru_tua2"
         android:layout_height="49dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/custom"
-        android:fontFamily="@font/poppins_medium"
+        android:fontFamily="@font/libre_franklin"
         android:hint="username"
-        android:paddingLeft="15dp"
+        android:textSize="16sp"
+        android:paddingStart="15dp"
+        android:textColor="@color/biru_tua2"
         android:textColorHint="#8A8A8A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,16 +55,20 @@
     <EditText
         android:id="@+id/editTextPw"
         android:layout_width="311dp"
-        android:textColor="@color/biru_tua2"
         android:layout_height="49dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/custom"
-        android:fontFamily="@font/poppins_medium"
+        android:drawableEnd="@drawable/ic_baseline_visibility_off_24"
+        android:fontFamily="@font/libre_franklin"
         android:hint="password"
+        android:textSize="16sp"
         android:inputType="textPassword"
-        android:paddingLeft="15dp"
+        android:longClickable="false"
+        android:paddingStart="15dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/biru_tua2"
         android:textColorHint="#8A8A8A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,29 +78,27 @@
         android:id="@+id/forgetPw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="52dp"
+        android:fontFamily="@font/libre_franklin_bold"
         android:text="Forget Password?"
         android:textColor="@color/biru_tua2"
-        android:textSize="14dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="14sp"
+
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.824"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPw"
-        app:layout_constraintVertical_bias="0.074" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextPw" />
 
     <Button
         android:id="@+id/buttonLgn"
         android:layout_width="180dp"
         android:layout_height="48dp"
         android:layout_marginBottom="48dp"
-        android:onClick="loginBtn"
         android:background="@drawable/custom_button"
+        android:onClick="loginBtn"
         android:padding="10dp"
         android:text="Login"
+        android:fontFamily="@font/libre_franklin_bold"
         android:textColor="@color/white"
-        android:theme="@style/Button.Teal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -117,7 +120,7 @@
             android:id="@+id/textViewDont"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_medium"
+            android:fontFamily="@font/poppins_bold"
             android:text="don’t have any account?" />
 
         <TextView
@@ -125,7 +128,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
-            android:fontFamily="@font/poppins_medium"
+            android:fontFamily="@font/poppins_bold"
             android:text="Sign Up"
             android:textColor="@color/biru_tua2" />
     </LinearLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -27,7 +28,7 @@
                 android:paddingLeft="20dp"
                 android:text="Nama Mapel"
                 android:textColor="@color/biru_tua2"
-                android:textSize="20dp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -38,37 +39,37 @@
                 android:paddingLeft="20dp"
                 android:text="Keterangan"
                 android:textColor="@color/biru_tua2"
-                android:textSize="15dp" />
+                android:textSize="13dp" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-
-                >
+                android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/btnHapusQuiz"
                     android:layout_width="100dp"
                     android:layout_height="40dp"
                     android:layout_gravity="end"
-                    android:layout_marginEnd="16dp"
+                    android:layout_marginEnd="8dp"
                     android:background="@drawable/button_danger"
                     android:gravity="center"
                     android:text="Hapus"
                     android:textColor="#FAFAFA"
-                    app:layout_constraintEnd_toEndOf="parent" />
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/btnHistory"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
                     android:id="@+id/btnHistory"
                     android:layout_width="100dp"
                     android:layout_height="40dp"
-                    android:layout_marginEnd="16dp"
                     android:background="@drawable/button_clear"
                     android:gravity="center"
                     android:text="History"
                     android:textColor="#FAFAFA"
-                    app:layout_constraintEnd_toEndOf="parent" />
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

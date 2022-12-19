@@ -2712,6 +2712,8 @@ drawable history
 drawable home_bg
 drawable ic_add
 drawable ic_baseline_restore_from_trash_24
+drawable ic_baseline_visibility_24
+drawable ic_baseline_visibility_off_24
 drawable ic_class
 drawable ic_clock_black_24dp
 drawable ic_dashboard_black_24dp
@@ -2839,6 +2841,7 @@ font libre_franklin_extralight
 font poppins_bold
 font poppins_light
 font poppins_medium
+font poppins_semibold
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3051,7 +3054,7 @@ id east
 id editTextConfirm
 id editTextEmail
 id editTextName
-id editTextPassword
+id editTextPasswordRegister
 id editTextPw
 id editTextUsername
 id editTextUsrnm
@@ -3416,6 +3419,7 @@ id textView15
 id textView18
 id textView2
 id textView26
+id textView3
 id textView4
 id textView5
 id textView6
@@ -3436,7 +3440,6 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id tiet1
-id tiet2
 id tietA
 id tietB
 id tietC
@@ -3497,6 +3500,7 @@ id vertical_only
 id video_title
 id view
 id view2
+id view3
 id viewPager
 id view_offset_helper
 id view_transition

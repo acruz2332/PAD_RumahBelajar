@@ -27,7 +27,6 @@ public class HomeFragment extends Fragment {
     public static final String MESSAGE_EXTRA = "MESSAGE_KEY";
     Animation fabOpen, fabClose, rotateForward, rotateBackward;
 
-
     public HomeFragment() {
 
     }
