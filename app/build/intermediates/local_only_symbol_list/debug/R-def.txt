@@ -64,6 +64,7 @@ drawable ic_baseline_visibility_24
 drawable ic_baseline_visibility_off_24
 drawable ic_class
 drawable ic_dashboard_black_24dp
+drawable ic_delete
 drawable ic_home2
 drawable ic_launcher_background
 drawable ic_launcher_foreground
