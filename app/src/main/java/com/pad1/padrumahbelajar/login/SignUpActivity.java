@@ -7,7 +7,10 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -38,6 +41,7 @@ public class SignUpActivity extends AppCompatActivity {
     RadioGroup radioGroupRole;
     BaseApiService mApiService;
     ProgressDialog loading;
+    boolean passwordVisible;
     Button buttonRegister;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +61,57 @@ public class SignUpActivity extends AppCompatActivity {
 
         tvlogin = findViewById(R.id.textViewlogin);
         mApiService = UtilsApi.getAPIService();
+        editTextPassword.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                final int Right = 2;
+                if(event.getAction()==MotionEvent.ACTION_UP){
+                    if(event.getRawX()>=editTextPassword.getRight()-editTextPassword.getCompoundDrawables()[Right].getBounds().width()){
+                        int selection = editTextPassword.getSelectionEnd();
+                        if(passwordVisible ){
+                            editTextPassword.setCompoundDrawablesRelativeWithIntrinsicBounds(0,0,R.drawable.ic_baseline_visibility_off_24,0);
+                            editTextPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                            passwordVisible = false;
 
+                        }else{
+                            editTextPassword.setCompoundDrawablesRelativeWithIntrinsicBounds(0,0,R.drawable.ic_baseline_visibility_24,0);
+                            editTextPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                            passwordVisible=true;
+                        }
+                        editTextPassword.setSelection(selection);
+                        return true;
+                    }
+                }
+
+                return false;
+            }
+        });
+
+        editTextConfirm.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                final int Right = 2;
+                if(event.getAction()==MotionEvent.ACTION_UP){
+                    if(event.getRawX()>=editTextConfirm.getRight()-editTextConfirm.getCompoundDrawables()[Right].getBounds().width()){
+                        int selection = editTextConfirm.getSelectionEnd();
+                        if(passwordVisible ){
+                            editTextConfirm.setCompoundDrawablesRelativeWithIntrinsicBounds(0,0,R.drawable.ic_baseline_visibility_off_24,0);
+                            editTextConfirm.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                            passwordVisible = false;
+
+                        }else{
+                            editTextConfirm.setCompoundDrawablesRelativeWithIntrinsicBounds(0,0,R.drawable.ic_baseline_visibility_24,0);
+                            editTextConfirm.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                            passwordVisible=true;
+                        }
+                        editTextConfirm.setSelection(selection);
+                        return true;
+                    }
+                }
+
+                return false;
+            }
+        });
         radioGroupRole.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {

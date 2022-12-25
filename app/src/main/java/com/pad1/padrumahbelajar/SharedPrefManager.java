@@ -27,11 +27,6 @@ public class SharedPrefManager {
         spEditor.putString(keySP, value);
         spEditor.commit();
     }
-    public void saveSPInt(String keySP, int value){
-        spEditor.putInt(keySP, value);
-        spEditor.commit();
-
-    }
 
     public void saveSPBoolean(String keySP, boolean value){
         spEditor.putBoolean(keySP, value);

@@ -45,7 +45,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.ListView
         holder.tvNama.setText(resultList.get(position).getNama().toString());
         holder.tvBenar.setText("Benar: " + resultList.get(position).getBenar().toString());
         holder.tvSalah.setText("Salah: " + resultList.get(position).getSalah().toString());
-        holder.tvKosong.setText("Kosong: " + resultList.get(position).getKosong().toString());
+        holder.tvKosong.setText("KosetText(resultList.get(position).getNama().toString());song: " + resultList.get(position).getKosong().toString());
         holder.tvPercobaanKe.setText("Percobaan ke-" + resultList.get(position).getPercobaanKe().toString());
         holder.tvNilai.setText("Nilai: " + resultList.get(position).getNilai().toString());
     }

@@ -5,7 +5,10 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.HideReturnsTransformationMethod;
+import android.text.method.PasswordTransformationMethod;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -41,6 +44,7 @@ public class LoginActivity extends AppCompatActivity {
     Context mContext;
     BaseApiService mApiService;
     ProgressDialog loading;
+    boolean passwordVisible;
     TextView textViewSignup;
     TextView textViewLogin;
     public static SharedPrefManager sharedPrefManager;
@@ -70,6 +74,31 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        editTextPw.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                final int Right = 2;
+                if(event.getAction()==MotionEvent.ACTION_UP){
+                    if(event.getRawX()>=editTextPw.getRight()-editTextPw.getCompoundDrawables()[Right].getBounds().width()){
+                        int selection = editTextPw.getSelectionEnd();
+                        if(passwordVisible ){
+                            editTextPw.setCompoundDrawablesRelativeWithIntrinsicBounds(0,0,R.drawable.ic_baseline_visibility_off_24,0);
+                            editTextPw.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                            passwordVisible = false;
+
+                        }else{
+                            editTextPw.setCompoundDrawablesRelativeWithIntrinsicBounds(0,0,R.drawable.ic_baseline_visibility_24,0);
+                            editTextPw.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                            passwordVisible=true;
+                        }
+                        editTextPw.setSelection(selection);
+                        return true;
+                    }
+                }
+
+                return false;
+            }
+        });
 
 
 

@@ -25,6 +25,7 @@ public class TutorialActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tutorial);
 
+
         buttonGetstrt = findViewById(R.id.buttonGetstrt);
 
         buttonGetstrt.setOnClickListener(new View.OnClickListener() {
