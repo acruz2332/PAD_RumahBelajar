@@ -23,6 +23,7 @@
         <item>@font/poppins_bold</item>
         <item>@font/poppins_light</item>
         <item>@font/poppins_medium</item>
+        <item>@font/poppins_semibold</item>
     </array>
     <color name="biru_muda">#CAF0F8</color>
     <color name="biru_muda2">#90E0EF</color>

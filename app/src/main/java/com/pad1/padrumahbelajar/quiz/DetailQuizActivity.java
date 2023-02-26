@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -45,6 +46,7 @@ public class DetailQuizActivity extends AppCompatActivity {
     Character[] jwb;
     String jawabanString = "";
     Button btnSubmit;
+    private Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -136,6 +138,7 @@ public class DetailQuizActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 for (int i = 0; i < jwb.length -1; i++) {
                     jawabanString += jwb[i] + ",";
                 }
@@ -144,6 +147,7 @@ public class DetailQuizActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                         if(response.isSuccessful()){
+
                             try{
                                 JSONObject jsonRESULT = new JSONObject(response.body().string());
                                 if(jsonRESULT.getString("status").equals("success")){

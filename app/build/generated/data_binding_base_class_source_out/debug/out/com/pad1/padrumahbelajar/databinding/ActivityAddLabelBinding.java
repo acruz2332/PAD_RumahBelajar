@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -12,8 +13,6 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textfield.TextInputLayout;
 import com.pad1.padrumahbelajar.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -27,19 +26,16 @@ public final class ActivityAddLabelBinding implements ViewBinding {
   public final Button btnTambah;
 
   @NonNull
-  public final TextInputLayout et1;
+  public final EditText et1;
 
   @NonNull
-  public final TextInputLayout et2;
+  public final EditText et2;
+
+  @NonNull
+  public final View garis;
 
   @NonNull
   public final ImageView imgBack;
-
-  @NonNull
-  public final TextInputEditText tiet1;
-
-  @NonNull
-  public final TextInputEditText tiet2;
 
   @NonNull
   public final TextView tv1;
@@ -51,16 +47,14 @@ public final class ActivityAddLabelBinding implements ViewBinding {
   public final TextView tv3;
 
   private ActivityAddLabelBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnTambah,
-      @NonNull TextInputLayout et1, @NonNull TextInputLayout et2, @NonNull ImageView imgBack,
-      @NonNull TextInputEditText tiet1, @NonNull TextInputEditText tiet2, @NonNull TextView tv1,
-      @NonNull TextView tv2, @NonNull TextView tv3) {
+      @NonNull EditText et1, @NonNull EditText et2, @NonNull View garis, @NonNull ImageView imgBack,
+      @NonNull TextView tv1, @NonNull TextView tv2, @NonNull TextView tv3) {
     this.rootView = rootView;
     this.btnTambah = btnTambah;
     this.et1 = et1;
     this.et2 = et2;
+    this.garis = garis;
     this.imgBack = imgBack;
-    this.tiet1 = tiet1;
-    this.tiet2 = tiet2;
     this.tv1 = tv1;
     this.tv2 = tv2;
     this.tv3 = tv3;
@@ -100,32 +94,26 @@ public final class ActivityAddLabelBinding implements ViewBinding {
       }
 
       id = R.id.et1;
-      TextInputLayout et1 = ViewBindings.findChildViewById(rootView, id);
+      EditText et1 = ViewBindings.findChildViewById(rootView, id);
       if (et1 == null) {
         break missingId;
       }
 
       id = R.id.et2;
-      TextInputLayout et2 = ViewBindings.findChildViewById(rootView, id);
+      EditText et2 = ViewBindings.findChildViewById(rootView, id);
       if (et2 == null) {
+        break missingId;
+      }
+
+      id = R.id.garis;
+      View garis = ViewBindings.findChildViewById(rootView, id);
+      if (garis == null) {
         break missingId;
       }
 
       id = R.id.imgBack;
       ImageView imgBack = ViewBindings.findChildViewById(rootView, id);
       if (imgBack == null) {
-        break missingId;
-      }
-
-      id = R.id.tiet1;
-      TextInputEditText tiet1 = ViewBindings.findChildViewById(rootView, id);
-      if (tiet1 == null) {
-        break missingId;
-      }
-
-      id = R.id.tiet2;
-      TextInputEditText tiet2 = ViewBindings.findChildViewById(rootView, id);
-      if (tiet2 == null) {
         break missingId;
       }
 
@@ -147,8 +135,8 @@ public final class ActivityAddLabelBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityAddLabelBinding((ConstraintLayout) rootView, btnTambah, et1, et2, imgBack,
-          tiet1, tiet2, tv1, tv2, tv3);
+      return new ActivityAddLabelBinding((ConstraintLayout) rootView, btnTambah, et1, et2, garis,
+          imgBack, tv1, tv2, tv3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
